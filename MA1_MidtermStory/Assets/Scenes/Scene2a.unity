@@ -258,7 +258,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 742587240}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene1Dialogue, Assembly-CSharp
         m_MethodName: Choice1bFunct
         m_Mode: 1
@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 742587243}
   - component: {fileID: 742587242}
   - component: {fileID: 742587241}
-  - component: {fileID: 742587240}
+  - component: {fileID: 742587245}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -771,31 +771,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &742587240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742587239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d538170d23ca4fb68b55838828a9b46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  primeInt: 1
-  Char1name: {fileID: 7791780710561627454}
-  Char1speech: {fileID: 7791780710561627453}
-  Char2name: {fileID: 7791780710561627452}
-  Char2speech: {fileID: 7791780710561627451}
-  DialogueDisplay: {fileID: 7791780710561627449}
-  ArtChar1: {fileID: 1485442709}
-  ArtBG1: {fileID: 281458698}
-  Choice1a: {fileID: 1280714117}
-  Choice1b: {fileID: 280485621}
-  NextScene1Button: {fileID: 1483606704}
-  NextScene2Button: {fileID: 1555047348}
-  nextButton: {fileID: 2050539363}
 --- !u!114 &742587241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -888,6 +863,36 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &742587245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742587239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd6e2fd1fef5469db6705d7b1b31386, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  primeInt: 1
+  Char1name: {fileID: 7791780710561627454}
+  Char1speech: {fileID: 7791780710561627453}
+  Char2name: {fileID: 7791780710561627452}
+  Char2speech: {fileID: 7791780710561627451}
+  Char3name: {fileID: 0}
+  Char3speech: {fileID: 0}
+  DialogueDisplay: {fileID: 0}
+  ArtChar1: {fileID: 0}
+  ArtChar2: {fileID: 0}
+  ArtChar3: {fileID: 0}
+  ArtBG1: {fileID: 0}
+  Choice1a: {fileID: 0}
+  Choice1b: {fileID: 0}
+  NextScene1Button: {fileID: 0}
+  NextScene2Button: {fileID: 0}
+  NextScene3Button: {fileID: 0}
+  nextButton: {fileID: 0}
 --- !u!1 &912035231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,7 +1120,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 742587240}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene1Dialogue, Assembly-CSharp
         m_MethodName: Choice1aFunct
         m_Mode: 1
@@ -1409,7 +1414,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 742587240}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene1Dialogue, Assembly-CSharp
         m_MethodName: SceneChange1
         m_Mode: 1
@@ -1619,7 +1624,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 742587240}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene1Dialogue, Assembly-CSharp
         m_MethodName: SceneChange2
         m_Mode: 1
@@ -2123,7 +2128,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 742587240}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene1Dialogue, Assembly-CSharp
         m_MethodName: talking
         m_Mode: 1
@@ -2201,6 +2206,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 742587244}
     m_Modifications:
+    - target: {fileID: 191233717953436596, guid: 4c979c438a94a4d818d204b8963c2d7a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3564849408289470539, guid: 4c979c438a94a4d818d204b8963c2d7a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2285,17 +2294,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7515786495935214289, guid: 4c979c438a94a4d818d204b8963c2d7a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9067271059735749630, guid: 4c979c438a94a4d818d204b8963c2d7a, type: 3}
       propertyPath: m_Name
       value: DIALOGUE_DISPLAY
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c979c438a94a4d818d204b8963c2d7a, type: 3}
---- !u!1 &7791780710561627449 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9067271059735749630, guid: 4c979c438a94a4d818d204b8963c2d7a, type: 3}
-  m_PrefabInstance: {fileID: 7791780710561627448}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &7791780710561627450 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3564849408289470539, guid: 4c979c438a94a4d818d204b8963c2d7a, type: 3}
