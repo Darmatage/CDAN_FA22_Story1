@@ -60,7 +60,7 @@ public void talking(){         // main story function. Players hit next to progr
                ArtChar1.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "Ohzi";
-                Char1speech.text = "Two breakfast burritos, please!";
+                Char1speech.text = "Alright, I’m going to take you back to my dorm building.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -70,21 +70,21 @@ public void talking(){         // main story function. Players hit next to progr
                 ArtChar2.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "Vendor";
-                Char2speech.text = "We only have chicken. Is that ok?";
+                Char2name.text = "Pigeon";
+                Char2speech.text = "Coo";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
                 Char1name.text = "Ohzi";
-                Char1speech.text = " I don’t eat bird.";
+                Char1speech.text = " I know, I know. I’ll give you a little bread when I get there.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt == 5){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "Vendor";
-                Char2speech.text = "That’s all we got, kid, take it or leave it.";
+                Char2name.text = "Pigeon";
+                Char2speech.text = "*Blinks.*";
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 6){
@@ -93,19 +93,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
         }
-       else if (primeInt ==7){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "Vendor";
-                Char2speech.text = "I don’t need your life story, kid.";
-        }
-       else if (primeInt == 8){
-                Char1name.text = "Ohzi";
-                Char1speech.text = "*Hm… well I promised my roommate a burrito…*";
-                Char2name.text = "";
-                Char2speech.text = "";
-        }
-        else if (primeInt == 9){
+        else if (primeInt == 7){
                  Char1name.text = "";
                  Char1speech.text = "";
                  Char2name.text = "";
@@ -116,17 +104,16 @@ public void talking(){         // main story function. Players hit next to progr
                  Choice1a.SetActive(true); // function Choice1aFunct()
                  Choice1b.SetActive(true); // function Choice1bFunct()
          }
-
          else if (primeInt == 20){
            ArtChar2.SetActive(false);
                   Char1name.text = "Ohzi";
-                  Char1speech.text = "Wow, the weather is really nice today!";
+                  Char1speech.text = "Any hoo-ha. I don’t know where you’re going to sleep.";
                   Char2name.text = "";
                   Char2speech.text = "";
           }
           else if (primeInt == 21){
-                   Char1name.text = "Ohzi";
-                   Char1speech.text = "All of the leaves are turning different colors, and the birds are out…";
+                   Char1name.text = "Pigeon";
+                   Char1speech.text = "...Coo";
                    Char2name.text = "";
                    Char2speech.text = "";
                    Char3name.text = "";
@@ -224,14 +211,14 @@ public void talking(){         // main story function. Players hit next to progr
        else if (primeInt == 100){
                 Char1name.text = "";
                 Char1speech.text = "";
-                Char2name.text = "Vendor";
-                Char2speech.text = "This is a pop up stand, kid";
+                Char2name.text = "Pigeon";
+                Char2speech.text = "…Coo.";
         }
        else if (primeInt == 101){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "Vendor";
-                Char2speech.text = "Shove off. It's a nice day. Go take a hike aroudn the block.";
+                Char1name.text = "Ohzi";
+                Char1speech.text = "Aww don't be such a baby.";
+                Char2name.text = "";
+                Char2speech.text = "";
                 primeInt = 19;
         }
 
@@ -254,7 +241,7 @@ public void talking(){         // main story function. Players hit next to progr
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "Can you please check in the back fo Veggie Burritos";
+                Char1speech.text = "Too much will give you a stomach ache!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 99;
@@ -265,7 +252,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
         public void Choice1bFunct(){
                 Char1name.text = "Ohzi";
-                Char1speech.text = " Is there someplace else on Evan’s Way where I could get a burrito?";
+                Char1speech.text = "Do you think I can afford that much bread?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 199;
