@@ -182,8 +182,8 @@ public void talking(){         // main story function. Players hit next to progr
            }
           else if (primeInt == 22){
           //  ArtChar3.SetActive(true);
-                  Char1name.text = "";
-                  Char1speech.text = "";
+                  Char1name.text = "Ohzi";
+                  Char1speech.text = "Hmmm...";
                   Char2name.text = "";
                   Char2speech.text = "";
                 //  Char3name.text = "";
@@ -198,18 +198,54 @@ public void talking(){         // main story function. Players hit next to progr
 
 //dialogue after choice 2
                   else if (primeInt == 30){
-                          Char1name.text = "";
-                          Char1speech.text = "";
+                          Char1name.text = "Ohzi";
+                          Char1speech.text = "I hope no one saw me talking to you, haha.";
                           Char2name.text = "";
                           Char2speech.text = "";
                           //Char3name.text = "";
                           //Char3speech.text = "";
                     }
                     else if (primeInt == 31){
+                            Char1name.text = "";
+                            Char1speech.text = "";
+                            Char2name.text = "Pigeon";
+                            Char2speech.text = "Coo coo!";
+                    }
+                    else if (primeInt == 32){
+                            Char1name.text = "Ohzi";
+                            Char1speech.text = "Yeah… we got away with it this time.";
+                            Char2name.text = "";
+                            Char2speech.text = "";
+                    }
+                    else if (primeInt == 33){
+                            Char1name.text = "Ohzi";
+                            Char1speech.text = "But what about next time?";
+                            Char2name.text = "";
+                            Char2speech.text = "";
+                    }
+                    else if (primeInt == 34){
+                            Char1name.text = "";
+                            Char1speech.text = "";
+                            Char2name.text = "Pigeon";
+                            Char2speech.text = "Coo?";
+                    }
+                    else if (primeInt == 345){
+                            Char1name.text = "Ohzi";
+                            Char1speech.text = "I can't hide you forever.";
+                            Char2name.text = "";
+                            Char2speech.text = "";
+                    }
+                    else if (primeInt == 36){
+                            Char1name.text = "Ohzi";
+                            Char1speech.text = "What about my RA or my roommate?";
+                            Char2name.text = "";
+                            Char2speech.text = "";
+                    }
+                    else if (primeInt == 37){
                              Char1name.text = "";
                              Char1speech.text = "";
-                             Char2name.text = "";
-                             Char2speech.text = "";
+                             Char2name.text = "Pigeon";
+                             Char2speech.text = "*Blinks.*";
                              // Turn off "Next" button, turn on "Choice" buttons
                              nextButton.SetActive(false);
                              allowSpace = false;
@@ -276,25 +312,61 @@ public void talking(){         // main story function. Players hit next to progr
      // ENCOUNTER AFTER CHOICE #2A
             else if (primeInt == 300){
                      Char1name.text = "Ohzi";
-                     Char1speech.text = "That's way too much bread for even me.";
+                     Char1speech.text = "I need a bed too!";
                      Char2name.text = "";
                      Char2speech.text = "";
              }
             else if (primeInt == 301){
                      Char1name.text = "Ohzi";
-                     Char1speech.text = "You would just get a stomach ache!";
+                     Char1speech.text = "Unless you don't mind bunking with me…";
                      Char2name.text = "";
                      Char2speech.text = "";
              }
              else if (primeInt == 302){
-                      Char1name.text = "";
-                      Char1speech.text = "";
-                      Char2name.text = "Pigeon";
-                      Char2speech.text = "Cooo...";
+                      Char1name.text = "Ohzi";
+                      Char1speech.text = "Maybe you could sleep at the end of the bed?";
+                      Char2name.text = "";
+                      Char2speech.text = "";
               }
               else if (primeInt == 303){
+                       Char1name.text = "";
+                       Char1speech.text = "";
+                       Char2name.text = "Pigeon";
+                       Char2speech.text = "...";
+               }
+             else if (primeInt == 304){
+                        Char1name.text = "Ohzi";
+                        Char1speech.text = "Okay, okay, you’re right. You're not a dog, you’re a Pigeon.";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+              }
+              else if (primeInt == 306){
                        Char1name.text = "Ohzi";
-                       Char1speech.text = "See, you know I care, silly, you can’t disagree.";
+                       Char1speech.text = "Would you want to share a pillow?";
+                       Char2name.text = "";
+                       Char2speech.text = "";
+               }
+               else if (primeInt == 307){
+                        Char1name.text = "Pigeon";
+                        Char1speech.text = "Coo...";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+                else if (primeInt == 308){
+                         Char1name.text = "Ohzi";
+                         Char1speech.text = "Okay, that's fair.";
+                         Char2name.text = "";
+                         Char2speech.text = "";
+                 }
+                 else if (primeInt == 309){
+                          Char1name.text = "Ohzi";
+                          Char1speech.text = "You can have a little pillow and blanket, okay?";
+                          Char2name.text = "";
+                          Char2speech.text = "";
+                  }
+              else if (primeInt == 310){
+                       Char1name.text = "Pigeon";
+                       Char1speech.text = "Coo!";
                        Char2name.text = "";
                        Char2speech.text = "";
                      primeInt = 29;
@@ -302,28 +374,46 @@ public void talking(){         // main story function. Players hit next to progr
 
      // ENCOUNTER AFTER CHOICE #2B
             else if (primeInt == 400){
+                     Char1name.text = "Ohzi";
+                     Char1speech.text = "I could build you a blanket nest!";
+                     Char2name.text = "";
+                     Char2speech.text = "";
+             }
+             else if (primeInt == 401){
+                      Char1name.text = "";
+                      Char1speech.text = "";
+                      Char2name.text = "Pigeon";
+                      Char2speech.text = "Coo?";
+             }
+            else if (primeInt == 402){
+                       Char1name.text = "Ohzi";
+                       Char1speech.text = "I’m sure we have some space or something somewhere.";
+                       Char2name.text = "";
+                       Char2speech.text = "";
+             }
+             else if (primeInt == 404){
+                      Char1name.text = "Ohzi";
+                      Char1speech.text = "I can wrap a bunch of fuzzy blankets around in a circle…";
+                      Char2name.text = "";
+                      Char2speech.text = "";
+              }
+              else if (primeInt == 405){
+                       Char1name.text = "Ohzi";
+                       Char1speech.text = "and add some pillows for you! ";
+                       Char2name.text = "";
+                       Char2speech.text = "";
+               }
+               else if (primeInt == 406){
+                        Char1name.text = "Ohzi";
+                        Char1speech.text = "How does that sound?";
+                        Char2name.text = "";
+                        Char2speech.text = "";
+                }
+            else if (primeInt == 407){
                      Char1name.text = "";
                      Char1speech.text = "";
                      Char2name.text = "Pigeon";
-                     Char2speech.text = "Coo.";
-             }
-             else if (primeInt == 401){
-                      Char1name.text = "Ohzi";
-                      Char1speech.text = "Silly bird, you don’t know how our economics work!";
-                      Char2name.text = "";
-                      Char2speech.text = "";
-             }
-            else if (primeInt == 402){
-                       Char1name.text = "";
-                       Char1speech.text = "";
-                       Char2name.text = "Pigeon";
-                       Char2speech.text = "…Coo coo. *Grunts.*";
-             }
-            else if (primeInt == 403){
-                     Char1name.text = "Ohzi";
-                     Char1speech.text = "…what?";
-                     Char2name.text = "";
-                     Char2speech.text = "";
+                     Char2speech.text = "Coo!";
                      primeInt = 29;
              }
           }
@@ -353,7 +443,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
         public void Choice2aFunct(){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "Oh no no no.";
+                Char1speech.text = "That’s not fair.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 299;
@@ -364,7 +454,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
         public void Choice2bFunct(){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "Do you really think I can afford that much bread?!";
+                Char1speech.text = "Oh wait, I thought of a cool idea!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 399;
