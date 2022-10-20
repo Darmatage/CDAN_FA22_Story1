@@ -62,7 +62,6 @@ public void talking(){         // main story function. Players hit next to progr
                ArtChar1a.SetActive(true);
                ArtChar2a.SetActive(true);
                 DialogueDisplay.SetActive(true);
-                
                 Char1name.text = "Ohzi";
                 Char1speech.text = " Alright then, I guess I’m going to take you to class with me!";
                 Char2name.text = "";
@@ -108,14 +107,14 @@ public void talking(){         // main story function. Players hit next to progr
 // Dialogue after choice 1
 
 else if (primeInt == 20){
-           Char1name.text = "Ohzi";
-           Char1speech.text = "You just have to stay quiet until we are in the dorm.";
-           Char2name.text = "";
-           Char2speech.text = "";
+           Char1name.text = "";
+           Char1speech.text = "";
+           Char2name.text = "Pigeon";
+           Char2speech.text = " …Coo?";
    }
    else if (primeInt == 21){
             Char1name.text = "Ohzi";
-            Char1speech.text = "We don't want to get caught by security.";
+            Char1speech.text = "Haha of course I’ll help you register, you just need a few credits to graduate with a degree afterall. In this game college is as free as a bird.";
             Char2name.text = "";
             Char2speech.text = "";
    }
@@ -127,7 +126,7 @@ else if (primeInt == 20){
    }
    else if (primeInt == 23){
              Char1name.text = "Ohzi";
-             Char1speech.text = "What? You don’t trust me yet?";
+             Char1speech.text = "Well I guess you could actually have a different opinion about that I realize.";
              Char2name.text = "";
              Char2speech.text = "";
    }
@@ -135,87 +134,20 @@ else if (primeInt == 20){
              Char1name.text = "";
              Char1speech.text = "";
              Char2name.text = "Pigeon";
-             Char2speech.text = "Cooo…";
+             Char2speech.text = "Coo";
    }
    else if (primeInt == 25){
              Char1name.text = "Ohzi";
-             Char1speech.text = "Okay, okay how much bread do you need?";
+             Char1speech.text = "Alright well, what class did you want to go to?";
              Char2name.text = "";
              Char2speech.text = "";
-   }
-   else if (primeInt == 26){
-             Char1name.text = "Ohzi";
-             Char1speech.text = "*It can't be that bad, they’re only a tiny guy.*";
-             Char2name.text = "";
-             Char2speech.text = "";
-   }
-   else if (primeInt == 27){
-             Char1name.text = "";
-             Char1speech.text = "";
-             Char2name.text = "Pigeon";
-             Char2speech.text = "CooCOO coooo coo!";
-            // Turn off "Next" button, turn on "Choice" buttons
-
-    }
-
-
-//dialogue after choice 2
-else if (primeInt == 30){
-        Char1name.text = "";
-        Char1speech.text = "";
-        Char2name.text = "";
-        Char2speech.text = "";
-        //Char3name.text = "";
-        //Char3speech.text = "";
-  }
-  else if (primeInt == 31){
-          Char1name.text = "";
-          Char1speech.text = "";
-          Char2name.text = "";
-          Char2speech.text = "";
-  }
-  else if (primeInt == 32){
-          Char1name.text = "";
-          Char1speech.text = "";
-          Char2name.text = "";
-          Char2speech.text = "";
-  }
-  else if (primeInt == 33){
-          Char1name.text = "";
-          Char1speech.text = "";
-          Char2name.text = "";
-          Char2speech.text = "";
-  }
-  else if (primeInt == 34){
-          Char1name.text = "";
-          Char1speech.text = "";
-          Char2name.text = "";
-          Char2speech.text = "";
-  }
-  else if (primeInt == 35){
-          Char1name.text = "";
-          Char1speech.text = "";
-          Char2name.text = "";
-          Char2speech.text = "";
-  }
-  else if (primeInt == 36){
-          Char1name.text = "";
-          Char1speech.text = "";
-          Char2name.text = "";
-          Char2speech.text = "";
-  }
-  else if (primeInt == 37){
-           Char1name.text = "";
-           Char1speech.text = "";
-           Char2name.text = "";
-           Char2speech.text = "";
-           // Turn off "Next" button, turn on "Choice" buttons
            nextButton.SetActive(false);
            allowSpace = false;
            NextScene1Button.SetActive(true);
            NextScene2Button.SetActive(true);
            NextScene3Button.SetActive(true);
-      }
+         }
+
 
 // ENCOUNTER AFTER CHOICE #1A
 else if (primeInt == 100){
@@ -270,8 +202,7 @@ else if (primeInt == 203){
           Char2name.text = "";
           Char2speech.text = "";
           primeInt = 19;
-  }
-}
+} }
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
  public void Choice1aFunct() {
@@ -298,12 +229,12 @@ public void Choice1bFunct(){
       }
 
       public void SceneChange1(){
-             SceneManager.LoadScene("Scene2a");
+             SceneManager.LoadScene("End_Lose");
       }
       public void SceneChange2(){
-              SceneManager.LoadScene("Scene2b");
+              SceneManager.LoadScene("Scene3d");
       }
       public void SceneChange3(){
-              SceneManager.LoadScene("Scene2c");
+              SceneManager.LoadScene("Scene3e");
       }
-}
+  }
