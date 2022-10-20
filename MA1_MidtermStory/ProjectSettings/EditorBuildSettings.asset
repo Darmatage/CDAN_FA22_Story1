@@ -42,7 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene4c.unity
     guid: d80f8737804724cf18ffa99d3ecdf61c
   - enabled: 0
-    path: Assets/Scenes/End_Lose4c.unity
+    path: 
     guid: 35edce9738d81164dada9d80f7104928
   - enabled: 1
     path: Assets/Scenes/End_Lose2a.unity
@@ -50,4 +50,37 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/End_Win4b.unity
     guid: f6077a6d1b6ef46fa8fe10c94d787029
+  - enabled: 1
+    path: Assets/Scenes/End_Lose1a.unity
+    guid: a59f0debd0a3b400c983224a830f6e43
+  - enabled: 1
+    path: Assets/Scenes/End_Lose2b.unity
+    guid: 599d132302c53485fa4d85543fe5ab27
+  - enabled: 1
+    path: Assets/Scenes/End_Lose3a.unity
+    guid: 14ffcfb4d0e774c5890353b8672635dd
+  - enabled: 1
+    path: Assets/Scenes/End_Lose3b.unity
+    guid: 03bfc74b4917844faa9b13df8cf80cdc
+  - enabled: 1
+    path: Assets/Scenes/End_Lose3c.unity
+    guid: 1ea3ae42c0f2e41b596f899f0bf6b672
+  - enabled: 1
+    path: Assets/Scenes/End_Lose3d.unity
+    guid: c6251ea98856744438aa559e4c9a1a47
+  - enabled: 1
+    path: Assets/Scenes/End_Lose4a.unity
+    guid: 6156cccc51be34b6488982928de1bd2a
+  - enabled: 1
+    path: Assets/Scenes/End_Lose4b.unity
+    guid: 2c05e47741c6944f1864255d3b10ca08
+  - enabled: 1
+    path: Assets/Scenes/End_Lose4c.unity
+    guid: 02cbf4cadf9d344d0aa83d1bbf201b0e
+  - enabled: 1
+    path: Assets/Scenes/End_Win4a.unity
+    guid: 68084dc2ffaa940d4872f138e88297f3
+  - enabled: 1
+    path: Assets/Scenes/End_Win4c.unity
+    guid: 3e6d0ce1587d74559bf5c249341e86e9
   m_configObjects: {}
