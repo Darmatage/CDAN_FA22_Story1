@@ -675,7 +675,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Pass off pigeon as a new roommate.
 --- !u!222 &630022671
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1072,7 +1072,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "It\u2019s not a pet!"
 --- !u!222 &1042843983
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1297,7 +1297,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Convince your RA to throw a Pigeon Party.
 --- !u!222 &1304947069
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2011,7 +2011,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "But it\u2019s not my pet!"
 --- !u!222 &1690671146
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2091,7 +2091,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Convince your RA pigeon is just a plushie.
 --- !u!222 &1737650825
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2400,6 +2400,10 @@ PrefabInstance:
     - target: {fileID: 3564849408289470539, guid: 4c979c438a94a4d818d204b8963c2d7a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5499645605406384759, guid: 4c979c438a94a4d818d204b8963c2d7a, type: 3}
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9067271059735749630, guid: 4c979c438a94a4d818d204b8963c2d7a, type: 3}
       propertyPath: m_Name
