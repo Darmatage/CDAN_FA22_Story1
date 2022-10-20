@@ -465,12 +465,12 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene("Scene2a");
+               SceneManager.LoadScene(""); //Ending 2B
         }
         public void SceneChange2(){
-                SceneManager.LoadScene("Scene2b");
+                SceneManager.LoadScene("Scene3c"); //Scene 3C
         }
         public void SceneChange3(){
-                SceneManager.LoadScene("Scene2c");
+                SceneManager.LoadScene("Scene3d"); //Scene 3D
         }
 }
