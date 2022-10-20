@@ -8,6 +8,7 @@ using UnityEngine.Audio;
 public class GameHandler : MonoBehaviour {
 
 	public static int playerStat;
+	
 	public static bool GameisPaused = false;
 	public GameObject pauseMenuUI;
 	public AudioMixer mixer;
