@@ -675,7 +675,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Choice C
+  m_Text: Take the pigeon to your science class.
 --- !u!222 &630022671
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1045,7 +1045,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dialogue A
+  m_Text: " I just haven\u2019t met a bird as smart as you."
 --- !u!222 &1042843983
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1259,7 +1259,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Choice A
+  m_Text: Take the pigeon to your art class.
 --- !u!222 &1304947069
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1897,7 +1897,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dialogue B
+  m_Text: ' Did I say I thought you were stupid?
+
+'
 --- !u!222 &1690671146
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1977,7 +1979,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Choice B
+  m_Text: Take the pigeon to your philosophy class.
 --- !u!222 &1737650825
 CanvasRenderer:
   m_ObjectHideFlags: 0
