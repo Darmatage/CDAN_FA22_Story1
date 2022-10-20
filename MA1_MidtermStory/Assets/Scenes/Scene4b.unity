@@ -788,13 +788,18 @@ MonoBehaviour:
   Char1speech: {fileID: 7791780710561627453}
   Char2name: {fileID: 7791780710561627452}
   Char2speech: {fileID: 7791780710561627451}
+  Char3name: {fileID: 0}
+  Char3speech: {fileID: 0}
   DialogueDisplay: {fileID: 7791780710561627449}
   ArtChar1: {fileID: 1485442709}
+  ArtChar2: {fileID: 0}
+  ArtChar3: {fileID: 0}
   ArtBG1: {fileID: 281458698}
   Choice1a: {fileID: 1280714117}
   Choice1b: {fileID: 280485621}
   NextScene1Button: {fileID: 1483606704}
   NextScene2Button: {fileID: 1555047348}
+  NextScene3Button: {fileID: 0}
   nextButton: {fileID: 2050539363}
 --- !u!114 &742587241
 MonoBehaviour:
@@ -1043,7 +1048,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dialogue A
+  m_Text: 'You kept your grubby hands off the controls, yes? '
 --- !u!222 &1042843983
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1257,7 +1262,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Choice A
+  m_Text: "\u2026Is that a camera in the plushie??"
 --- !u!222 &1304947069
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1895,7 +1900,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dialogue B
+  m_Text: Everything is going as planned?
 --- !u!222 &1690671146
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1975,7 +1980,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Choice B
+  m_Text: Nothing is wrong!
 --- !u!222 &1737650825
 CanvasRenderer:
   m_ObjectHideFlags: 0
