@@ -59,8 +59,8 @@ public void talking(){         // main story function. Players hit next to progr
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
-               ArtChar1a.SetActive(true);
-               ArtChar2a.SetActive(true);
+				ArtChar1a.SetActive(true);
+				ArtChar2a.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "Ohzi";
                 Char1speech.text = " Alright then, I guess I’m going to take you to class with me!";
