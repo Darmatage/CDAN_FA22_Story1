@@ -161,25 +161,25 @@ public void talking(){         // main story function. Players hit next to progr
          }
 //After dialogue options
          else if (primeInt == 20){
-                  Char1name.text = "Ohzi";
-                  Char1speech.text = "ANYWAY! C’mon, it’s not that bad.";
+                  Char1name.text = "";
+                  Char1speech.text = "";
                   Char2name.text = "";
                   Char2speech.text = "";
-                  Char3name.text = "";
-                  Char3speech.text = "";
+                  Char3name.text = "RA";
+                  Char3speech.text = " What is it then?";
           }
           else if (primeInt == 21){
                    Char1name.text = "";
                    Char1speech.text = "";
                    Char2name.text = "Pigeon";
-                   Char2speech.text = "Coo Coo. *Blinks twice*";
+                   Char2speech.text = "*Blinks*";
                    Char3name.text = "";
                    Char3speech.text = "";
            }
           else if (primeInt == 22){
           //  ArtChar3.SetActive(true);
                   Char1name.text = "Ohzi";
-                  Char1speech.text = "See! It’s … friendly?";
+                  Char1speech.text = " It’s uh… a… *starts sweating*";
                   Char2name.text = "";
                   Char2speech.text = "";
                   Char3name.text = "";
@@ -191,57 +191,8 @@ public void talking(){         // main story function. Players hit next to progr
                      Char1speech.text = "";
                      Char2name.text = "";
                      Char2speech.text = "";
-                     Char3name.text = "Moosh";
-                     Char3speech.text = " But why did you even bring it in here?";
-             }
-            else if (primeInt == 24){
-                    Char1name.text = "";
-                    Char1speech.text = "";
-                    Char2name.text = "";
-                    Char2speech.text = "";
-                    Char3name.text = "Moosh";
-                    Char3speech.text = "Didnt you know all wild birds are evil!?";
-              }
-
-              else if (primeInt == 25){
-                       Char1name.text = "";
-                       Char1speech.text = "";
-                       Char2name.text = "";
-                       Char2speech.text = "";
-                       Char3name.text = "Moosh";
-                       Char3speech.text = "They’ll bite you!";
-               }
-              else if (primeInt == 26){
-                      Char1name.text = "";
-                      Char1speech.text = "";
-                      Char2name.text = "Pigeon";
-                      Char2speech.text = "...";
-                      Char3name.text = "";
-                      Char3speech.text = "";
-                }
-                else if (primeInt == 27){
-                         Char1name.text = "";
-                         Char1speech.text = "";
-                         Char2name.text = "";
-                         Char2speech.text = "";
-                         Char3name.text = "Moosh";
-                         Char3speech.text = "Look at it! Look at the pure evil in its eyes–";
-                 }
-                else if (primeInt == 28){
-                        Char1name.text = "";
-                        Char1speech.text = "";
-                        Char2name.text = "";
-                        Char2speech.text = "";
-                        Char3name.text = "Moosh";
-                        Char3speech.text = "Wait, why is it eying me and my guitar?";
-                  }
-                  else if (primeInt == 29){
-                           Char1name.text = "";
-                           Char1speech.text = "";
-                           Char2name.text = "Pigeon";
-                           Char2speech.text = "Coo.";
-                           Char3name.text = "";
-                           Char3speech.text = "";
+                     Char3name.text = "RA";
+                     Char3speech.text = "You’re not making a very good case for yourself.";
                              // Turn off "Next" button, turn on "Choice" buttons
                              nextButton.SetActive(false);
                              allowSpace = false;
@@ -265,14 +216,14 @@ public void talking(){         // main story function. Players hit next to progr
                     Char2name.text = "";
                     Char2speech.text = "";
                     Char3name.text = "RA";
-                    Char3speech.text = "O...kay...?";
+                    Char3speech.text = "O...kay...? Not sure why you're yelling...";
                 primeInt = 19;
         }
 
 // ENCOUNTER AFTER CHOICE #2
        else if (primeInt == 200){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "I just picked it up in the park!";
+                Char1speech.text = "But it’s not *myyyyy* pet! Not my fault!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -283,56 +234,8 @@ public void talking(){         // main story function. Players hit next to progr
                  Char1speech.text = "";
                  Char2name.text = "";
                  Char2speech.text = "";
-                 Char3name.text = "Moosh";
-                 Char3speech.text = "You just.";
-         }
-         else if (primeInt == 202){
-                  Char1name.text = "";
-                  Char1speech.text = "";
-                  Char2name.text = "";
-                  Char2speech.text = "";
-                  Char3name.text = "Moosh";
-                  Char3speech.text = "Picked it up and took it with you,";
-          }
-          else if (primeInt == 203){
-                   Char1name.text = "";
-                   Char1speech.text = "";
-                   Char2name.text = "";
-                   Char2speech.text = "";
-                   Char3name.text = "Moosh";
-                   Char3speech.text = "No questions asked? ";
-           }
-           else if (primeInt == 204){
-                    Char1name.text = "";
-                    Char1speech.text = "";
-                    Char2name.text = "";
-                    Char2speech.text = "";
-                    Char3name.text = "Moosh";
-                    Char3speech.text = "...Does that count as kidnapping or...?";
-            }
-            else if (primeInt == 205){
-                     Char1name.text = "Ohzi";
-                     Char1speech.text = "It wanted to come with me!";
-                     Char2name.text = "";
-                     Char2speech.text = "";
-                     Char3name.text = "";
-                     Char3speech.text = "";
-             }
-             else if (primeInt == 206){
-                      Char1name.text = "";
-                      Char1speech.text = "";
-                      Char2name.text = "";
-                      Char2speech.text = "";
-                      Char3name.text = "Moosh";
-                      Char3speech.text = "How did you even know that??";
-              }
-       else if (primeInt == 207){
-                Char1name.text = "";
-                Char1speech.text = "";
-                Char2name.text = "";
-                Char2speech.text = "";
-                Char3name.text = "Moosh";
-                Char3speech.text = "What if its planning someth--";
+                 Char3name.text = "RA";
+                 Char3speech.text = "Mhmmmm, Ok…";
                 primeInt = 19;
         }
      }
@@ -366,7 +269,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene(""); //Ending 3B
+               SceneManager.LoadScene("End_Lose3b"); //Ending 3B
         }
         public void SceneChange2(){
                 SceneManager.LoadScene("Scene4b"); //Scene 4B
