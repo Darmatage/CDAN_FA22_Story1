@@ -300,7 +300,7 @@ public void talking(){         // main story function. Players hit next to progr
 // ENCOUNTER AFTER CHOICE #2
        else if (primeInt == 200){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "";
+                Char1speech.text = "I can explain, just let me–";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -312,7 +312,7 @@ public void talking(){         // main story function. Players hit next to progr
                  Char2name.text = "";
                  Char2speech.text = "";
                  Char3name.text = "Professor";
-                 Char3speech.text = "";
+                 Char3speech.text = "No, I see how it is.";
          }
          else if (primeInt == 202){
                   Char1name.text = "";
@@ -320,7 +320,7 @@ public void talking(){         // main story function. Players hit next to progr
                   Char2name.text = "";
                   Char2speech.text = "";
                   Char3name.text = "Professor";
-                  Char3speech.text = "";
+                  Char3speech.text = "You don't appreciate my skill as your professor.";
           }
           else if (primeInt == 203){
                    Char1name.text = "";
@@ -328,19 +328,19 @@ public void talking(){         // main story function. Players hit next to progr
                    Char2name.text = "";
                    Char2speech.text = "";
                    Char3name.text = "Professor";
-                   Char3speech.text = "";
+                   Char3speech.text = "MAYBE I'LL JUST QUIT!";
            }
            else if (primeInt == 204){
                     Char1name.text = "";
                     Char1speech.text = "";
                     Char2name.text = "Pigeon";
-                    Char2speech.text = "";
+                    Char2speech.text = "CooCoo.";
                     Char3name.text = "";
                     Char3speech.text = "";
             }
             else if (primeInt == 205){
                      Char1name.text = "Ohzi";
-                     Char1speech.text = "";
+                     Char1speech.text = "Shh– quiet!!";
                      Char2name.text = "";
                      Char2speech.text = "";
                      Char3name.text = "";
@@ -352,11 +352,11 @@ public void talking(){         // main story function. Players hit next to progr
                       Char2name.text = "";
                       Char2speech.text = "";
                       Char3name.text = "Professor";
-                      Char3speech.text = "";
+                      Char3speech.text = "What? What did you say?";
               }
               else if (primeInt == 207){
                        Char1name.text = "Ohzi";
-                       Char1speech.text = "";
+                       Char1speech.text = "Nothing!! Nothing. ";
                        Char2name.text = "";
                        Char2speech.text = "";
                        Char3name.text = "";
@@ -368,23 +368,23 @@ public void talking(){         // main story function. Players hit next to progr
                         Char2name.text = "";
                         Char2speech.text = "";
                         Char3name.text = "Professor";
-                        Char3speech.text = "";
+                        Char3speech.text = "No, not you. Pigeon...do you… Believe in me?";
                 }
                 else if (primeInt == 208){
                          Char1name.text = "";
                          Char1speech.text = "";
                          Char2name.text = "Pigeon";
-                         Char2speech.text = "";
+                         Char2speech.text = "*Blinks.*";
                          Char3name.text = "";
                          Char3speech.text = "";
                  }
         else if (primeInt == 209){
-                 Char1name.text = "";
-                 Char1speech.text = "";
+                 Char1name.text = "Ohzi";
+                 Char1speech.text = "Uh...";
                  Char2name.text = "";
                  Char2speech.text = "";
-                 Char3name.text = "RA";
-                 Char3speech.text = "Mhmmmm, Ok…";
+                 Char3name.text = "";
+                 Char3speech.text = "";
                 primeInt = 19;
         }
      }
@@ -392,7 +392,7 @@ public void talking(){         // main story function. Players hit next to progr
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "It’s not a pet!";
+                Char1speech.text = "It’s not like your class is *that* good.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -405,7 +405,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
         public void Choice1bFunct(){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "But it’s not *my* pet!";
+                Char1speech.text = "I can explain–";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -418,7 +418,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene("End_Lose3b"); //Ending 3B
+               SceneManager.LoadScene("End_Lose3c"); //Ending 3c
         }
         public void SceneChange2(){
                 SceneManager.LoadScene("Scene4b"); //Scene 4B
