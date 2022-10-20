@@ -44,7 +44,7 @@ public class Scene3ADialogue : MonoBehaviour {
         private bool allowSpace = true;
 
 void Start(){         // initial visibility settings
-        DialogueDisplay.SetActive(false);
+        DialogueDisplay.SetActive(true);
         ArtChar1a.SetActive(false);
         ArtChar1b.SetActive(false);
         ArtChar1c.SetActive(false);
