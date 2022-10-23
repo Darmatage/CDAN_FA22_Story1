@@ -15,9 +15,9 @@ public class Scene3dDialogue : MonoBehaviour {
         public Text Char3speech;
         public GameObject DialogueDisplay;
         public GameObject ArtChar1;   //Ohzi - player
-		public GameObject ArtChar1b; 
+		public GameObject ArtChar1b;
         public GameObject ArtChar2;   //pigeon
-		public GameObject ArtChar2b; 
+		public GameObject ArtChar2b;
         public GameObject ArtChar3;   //professor
 		public GameObject ArtChar3b;
         public GameObject ArtBG1;
@@ -164,7 +164,7 @@ public void talking(){         // main story function. Players hit next to progr
                  Char2name.text = "";
                  Char2speech.text = "";
 				 Char3name.text = "";
-                Char3speech.text = ""; 
+                Char3speech.text = "";
 		}
         else if (primeInt == 14){
                  Char1name.text = "";
@@ -438,9 +438,9 @@ public void talking(){         // main story function. Players hit next to progr
                SceneManager.LoadScene("Scene4c");
         }
         public void SceneChange2(){
-                SceneManager.LoadScene("Scene4b");
+                SceneManager.LoadScene("");
         }
         public void SceneChange3(){
-                SceneManager.LoadScene("End_LoseD2");
+                SceneManager.LoadScene("End_Lose3d");
         }
 }

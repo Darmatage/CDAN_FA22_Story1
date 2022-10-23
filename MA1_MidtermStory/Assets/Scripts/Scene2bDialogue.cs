@@ -229,7 +229,7 @@ public void Choice1bFunct(){
       }
 
       public void SceneChange1(){
-             SceneManager.LoadScene("End_Lose"); //Art Class -> Ending 2B
+             SceneManager.LoadScene("End_Lose2b"); //Art Class -> Ending 2B
       }
       public void SceneChange2(){
               SceneManager.LoadScene("Scene3c"); //Philosophy Class --> Scene 3C

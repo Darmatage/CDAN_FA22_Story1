@@ -418,12 +418,12 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange1(){
-               SceneManager.LoadScene("End_Lose3c"); //Ending 3c
+               SceneManager.LoadScene("Scene4b"); //Ending 3c
         }
         public void SceneChange2(){
-                SceneManager.LoadScene("Scene4b"); //Scene 4B
+                SceneManager.LoadScene("Scene4c"); //Scene 4B
         }
         public void SceneChange3(){
-                SceneManager.LoadScene("Scene4a"); //Scene 4A
+                SceneManager.LoadScene("End_Lose3c"); //Scene 4A
         }
 }
