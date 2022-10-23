@@ -1223,7 +1223,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SIC THE PIGEON
+  m_Text: 'RABID RAMPAGE
+
+    Ending 6/13'
 --- !u!222 &1639195725
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1303,8 +1305,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Pidgeonpocolipse is apon us, thanks to your stupidity you failed all
-    of humanity as a representitive to the pidgens.
+  m_Text: You hurl the pigeon in a rage at your professor, and the pigeon proceeds
+    to tear the poor man to shreds. But its avian bloodlust isn't sated yet... and
+    it turns its gaze to you.
 --- !u!222 &1824814101
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -1225,7 +1225,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: ' A MODEL STUDENT
 
-    Ending 3/10'
+    Ending 3/13'
 --- !u!222 &1639195725
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1306,9 +1306,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'The Pigeon''s super duper hot bod triggers ultra global warming. Its hot
-    ass burns the Earth into a living hell. Only one word remains:
-
-    "Slay."'
+    ass burns the Earth into a living hell. Only one word remains in the wake of
+    humanity''s demise: "Slay."'
 --- !u!222 &1824814101
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -551,7 +551,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TRUE ENDING
+  m_Text: 'IN SICKNESS AND WEALTH...
+
+    Ending 11/13'
 --- !u!222 &622762290
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1303,8 +1305,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Pidgeonpocolipse is apon us, thanks to your stupidity you failed all
-    of humanity as a representitive to the pidgens.
+  m_Text: Your wedding is the event of the century. You have all you could ever want...
+    except a truly happy marriage. It's better than the alternative, you suppose.
 --- !u!222 &1580602247
 CanvasRenderer:
   m_ObjectHideFlags: 0

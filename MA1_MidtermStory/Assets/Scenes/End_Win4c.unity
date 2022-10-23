@@ -551,7 +551,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TRUE ENDING
+  m_Text: 'SUPER SECRET SCIENCE SOCIETY
+
+    Ending: 13/13'
 --- !u!222 &622762290
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1303,8 +1305,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Pidgeonpocolipse is apon us, thanks to your stupidity you failed all
-    of humanity as a representitive to the pidgens.
+  m_Text: The first meeting you attend with the pigeon, you end up with a front row
+    seat to the beginning of WW3 inside a bunker. At the very least, you're safe...
+    and alone.
 --- !u!222 &1580602247
 CanvasRenderer:
   m_ObjectHideFlags: 0

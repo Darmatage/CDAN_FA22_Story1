@@ -551,7 +551,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TRUE ENDING
+  m_Text: 'EVERYTHING IS... FINE?
+
+    Ending 12/13'
 --- !u!222 &622762290
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1303,8 +1305,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Pidgeonpocolipse is apon us, thanks to your stupidity you failed all
-    of humanity as a representitive to the pidgens.
+  m_Text: After the plushies hit the market, you earn more cash than you know what
+    to do with. Other than paying off that debt you owe to the mob. You can hold
+    off a little bit, right?
 --- !u!222 &1580602247
 CanvasRenderer:
   m_ObjectHideFlags: 0
