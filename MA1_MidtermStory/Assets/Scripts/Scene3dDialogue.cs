@@ -412,7 +412,7 @@ public void talking(){         // main story function. Players hit next to progr
                SceneManager.LoadScene("Scene4c");
         }
         public void SceneChange2(){
-                SceneManager.LoadScene("");
+                SceneManager.LoadScene("Scene4a");
         }
         public void SceneChange3(){
                 SceneManager.LoadScene("End_Lose3d");
