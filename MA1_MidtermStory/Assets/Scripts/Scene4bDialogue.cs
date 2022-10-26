@@ -107,15 +107,14 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "Coo!";
 				Char3name.text = "";
                 Char3speech.text = "";
-                //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 7){
-                Char1name.text = "";
-                Char1speech.text = "";
+                Char1name.text = "Ohzi";
+                Char1speech.text = "Follow me to my little factory, I want to show you the process.";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "Professor";
-                Char3speech.text = "Most of this test was meant to make everyone fail!";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		 else if (primeInt == 8){
                 Char1name.text = "";
