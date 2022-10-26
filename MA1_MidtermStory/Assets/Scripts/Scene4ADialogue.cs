@@ -15,13 +15,16 @@ public class Scene4aDialogue : MonoBehaviour {
         public Text Char3speech;
 		public Text Char4name;
         public Text Char4speech;
-        public GameObject DialogueDisplay;
+		public GameObject DialogueDisplay;
         public GameObject ArtChar1;   //Ohzi - player
 		public GameObject ArtChar1b;
+		public GameObject ArtChar1c;
         public GameObject ArtChar2;   //pigeon
 		public GameObject ArtChar2b;
-        public GameObject ArtChar3;   //moosh
+		public GameObject ArtChar2c;
+        public GameObject ArtChar3;   //Moosh
 		public GameObject ArtChar3b;
+		public GameObject ArtChar3c;
 		public GameObject ArtChar4;   //Priest RA
 		public GameObject ArtChar4b;   //panic/caugh
 		public GameObject ArtChar4c;   //excitement
@@ -39,11 +42,14 @@ void Start(){         // initial visibility settings
         DialogueDisplay.SetActive(false);
         ArtChar1.SetActive(false);
         ArtChar1b.SetActive(false);
+		ArtChar1c.SetActive(false);
         ArtChar2.SetActive(false);
 		ArtChar2b.SetActive(false);
+		ArtChar2c.SetActive(false);
         ArtChar3.SetActive(false);
         ArtChar3b.SetActive(false);
-        ArtChar4.SetActive(false);
+		ArtChar3c.SetActive(false);
+		ArtChar4.SetActive(false);
         ArtChar4b.SetActive(false);
 		ArtChar4c.SetActive(false);
 		
@@ -264,7 +270,6 @@ public void talking(){         // main story function. Players hit next to progr
 				 Char4name.text = "";
                  Char4speech.text = "";
         }
-
          else if (primeInt == 24){
 			ArtChar4.SetActive(false);
 			ArtChar4b.SetActive(true);
@@ -300,7 +305,6 @@ public void talking(){         // main story function. Players hit next to progr
 				  Char4name.text = "";
                   Char4speech.text = "";
             }
-
             else if (primeInt == 27){
                      Char1name.text = "";
                      Char1speech.text = "";
@@ -310,6 +314,36 @@ public void talking(){         // main story function. Players hit next to progr
 					 Char3speech.text = "";
                      Char4name.text = "RA";
                      Char4speech.text = "Will you Ohzi take Pigeon to be your lawfully wedded..wife??";
+			}
+            else if (primeInt == 28){
+                     Char1name.text = "";
+                     Char1speech.text = "";
+                     Char2name.text = "";
+                     Char2speech.text = "";
+					 Char3name.text = "Moosh";
+					 Char3speech.text = "Hey, that's my job! You’re LITERALLY crashing the wedding!";
+                     Char4name.text = "";
+                     Char4speech.text = "";
+			}
+            else if (primeInt == 29){
+                     Char1name.text = "";
+                     Char1speech.text = "";
+                     Char2name.text = "";
+                     Char2speech.text = "";
+					 Char3name.text = "";
+					 Char3speech.text = "";
+                     Char4name.text = "RA";
+                     Char4speech.text = "Sorry..sorry it was just a prank..";
+			}
+            else if (primeInt == 30){
+                     Char1name.text = "";
+                     Char1speech.text = "";
+                     Char2name.text = "";
+                     Char2speech.text = "";
+					 Char3name.text = "Moosh";
+					 Char3speech.text = " Ahem. Ohzi, would you like to say your vows?";
+                     Char4name.text = "";
+                     Char4speech.text = "";
 					  // Turn off "Next" button, turn on "Choice" buttons
                              nextButton.SetActive(false);
                              allowSpace = false;
