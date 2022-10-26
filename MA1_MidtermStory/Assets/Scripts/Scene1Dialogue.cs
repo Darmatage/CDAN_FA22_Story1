@@ -119,6 +119,7 @@ public void talking(){         // main story function. Players hit next to progr
 //ADD IN BG CHANGE HERE
          else if (primeInt == 20){
            ArtChar2.SetActive(false);
+           ArtBG1.SetActive(false);
                   Char1name.text = "Ohzi";
                   Char1speech.text = "Wow, the weather is really nice today!";
                   Char2name.text = "";

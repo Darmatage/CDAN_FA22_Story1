@@ -89,6 +89,7 @@ public void talking(){         // main story function. Players hit next to progr
                 //Char3speech.text = "";
         }
        else if (primeInt ==3){
+         ArtBG1.SetActive(false);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Pigeon";
