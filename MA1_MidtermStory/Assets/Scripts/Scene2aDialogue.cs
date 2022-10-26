@@ -103,7 +103,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
        else if (primeInt == 5){
                 Char1name.text = "Ohzi";
-                Char1speech.text = " I’ll give you a little bread when we get there.";
+                Char1speech.text = "I’ll give you a little bread when we get there.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 //gameHandler.AddPlayerStat(1);
@@ -146,7 +146,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
         else if (primeInt == 12){
                   Char1name.text = "Ohzi";
-                  Char1speech.text = "*It can't be that bad, they’re only a tiny guy.*";
+                  Char1speech.text = "(It can't be that bad, they’re only a tiny guy.)";
                   Char2name.text = "";
                   Char2speech.text = "";
         }
@@ -168,7 +168,7 @@ public void talking(){         // main story function. Players hit next to progr
          else if (primeInt == 20){
           // ArtChar2.SetActive(false);
                   Char1name.text = "Ohzi";
-                  Char1speech.text = "Any hoo-ha. I don’t know where you’re going to sleep.";
+                  Char1speech.text = "Anywho, I don’t know where you’re going to sleep.";
                   Char2name.text = "";
                   Char2speech.text = "";
           }
@@ -257,7 +257,7 @@ public void talking(){         // main story function. Players hit next to progr
 // ENCOUNTER AFTER CHOICE #1A
        else if (primeInt == 100){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "That's way too much bread for even me.";
+                Char1speech.text = "That's way too much bread, even for me.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -275,7 +275,7 @@ public void talking(){         // main story function. Players hit next to progr
          }
          else if (primeInt == 103){
                   Char1name.text = "Ohzi";
-                  Char1speech.text = "See, you know I care, silly, you can’t disagree.";
+                  Char1speech.text = "See, you know I care, silly! You can’t disagree.";
                   Char2name.text = "";
                   Char2speech.text = "";
                 primeInt = 19;
