@@ -61,7 +61,7 @@ void Update(){         // use spacebar as Next button
 //Story Units:
 public void talking(){         // main story function. Players hit next to progress to next int
         primeInt = primeInt + 1;
-        if (primeInt == 1){
+        if (primeInt = 1){
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
@@ -374,7 +374,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "Pigeon";
                 Char2speech.text = "Cooo.";
         }
-		 else if (primeInt == 203){
+		 else if (primeInt == 204){
                 Char1name.text = "Ohzi";
                 Char1speech.text = "You’re right,I can't be worrying about it right now, we have to go!";
                 Char2name.text = "";
@@ -398,7 +398,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
         public void Choice1bFunct(){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "I really appreciate it, even if it was cheating.";
+                Char1speech.text = "I really appreciate it, \n even if it was cheating.";
                 Char2name.text = "";
                 Char2speech.text = "";
                 primeInt = 199;
@@ -409,6 +409,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange1(){
+			speech.text = "Share your super smart pigeon with the world.";
                SceneManager.LoadScene("Scene4c");
         }
         public void SceneChange2(){
