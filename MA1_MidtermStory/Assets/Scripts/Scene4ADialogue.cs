@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
-public class Scene3dDialogue : MonoBehaviour {
+public class Scene4aDialogue : MonoBehaviour {
         public int primeInt = 1;         // This integer drives game progress!
         public Text Char1name;
         public Text Char1speech;
@@ -13,6 +13,8 @@ public class Scene3dDialogue : MonoBehaviour {
         public Text Char2speech;
         public Text Char3name;
         public Text Char3speech;
+		public Text Char4name;
+        public Text Char4speech;
         public GameObject DialogueDisplay;
         public GameObject ArtChar1;   //Ohzi - player
 		public GameObject ArtChar1b;
@@ -28,7 +30,6 @@ public class Scene3dDialogue : MonoBehaviour {
         public GameObject Choice1b;
         public GameObject NextScene1Button;
         public GameObject NextScene2Button;
-        public GameObject NextScene3Button;
         public GameObject nextButton;
        //public GameHandler gameHandler;
        //public AudioSource audioSource;
@@ -49,7 +50,7 @@ void Start(){         // initial visibility settings
         Choice1b.SetActive(false);
         NextScene1Button.SetActive(false);
         NextScene2Button.SetActive(false);
-        NextScene3Button.SetActive(false);
+        //NextScene3Button.SetActive(false);
         nextButton.SetActive(true);
    }
     
@@ -234,7 +235,9 @@ public void talking(){         // main story function. Players hit next to progr
                  Char2name.text = "";
                  Char2speech.text = "";
 				 Char3name.text = "";
-                Char3speech.text = "";
+                 Char3speech.text = "";
+				 Char4name.text = "";
+                 Char4speech.text = "";
 		}
 		else if (primeInt == 22){
 			ArtChar3.SetActive(false);
@@ -309,13 +312,10 @@ public void talking(){         // main story function. Players hit next to progr
                              allowSpace = false;
                              NextScene1Button.SetActive(true);
                              NextScene2Button.SetActive(true);
-                             NextScene3Button.SetActive(false);
              }
-           
-         }
 
 // ENCOUNTER AFTER CHOICE #1
-		}
+		
 		else if (primeInt == 100){
 			Char1name.text = "Ohzi";
 			Char1speech.text = "I feel bad now. You should have let me fail, I didn’t want to cheat!";
@@ -400,7 +400,8 @@ public void talking(){         // main story function. Players hit next to progr
 				Char3name.text = "Moosh";
 				Char3speech.text = "Oh come on they may be a bit of a bird brain-";
         }
-     }
+	}
+
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
                 Char1name.text = "Ohzi";
@@ -426,11 +427,10 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange1(){
-			speech.text = "Run from wedding";
-               SceneManager.LoadScene("");
+               SceneManager.LoadScene("End_Lose4a");
         }
         public void SceneChange2(){
-			speech.text = "Go through with the wedding";
-                SceneManager.LoadScene("");
+                SceneManager.LoadScene("End_Win4a");
         }
+}
 	

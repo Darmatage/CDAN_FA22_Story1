@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
-public class Scene3dDialogue : MonoBehaviour {
+public class Scene4cDialogue : MonoBehaviour {
         public int primeInt = 1;         // This integer drives game progress!
         public Text Char1name;
         public Text Char1speech;
@@ -18,14 +18,13 @@ public class Scene3dDialogue : MonoBehaviour {
 		public GameObject ArtChar1b;
         public GameObject ArtChar2;   //pigeon
 		public GameObject ArtChar2b;
-        public GameObject ArtChar3;   //professor
+        public GameObject ArtChar3;   //Mad Scientist
 		public GameObject ArtChar3b;
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
         public GameObject NextScene1Button;
         public GameObject NextScene2Button;
-        public GameObject NextScene3Button;
         public GameObject nextButton;
        //public GameHandler gameHandler;
        //public AudioSource audioSource;
@@ -46,7 +45,7 @@ void Start(){         // initial visibility settings
         Choice1b.SetActive(false);
         NextScene1Button.SetActive(false);
         NextScene2Button.SetActive(false);
-        NextScene3Button.SetActive(false);
+        //NextScene3Button.SetActive(false);
         nextButton.SetActive(true);
    }
     
@@ -324,7 +323,6 @@ public void talking(){         // main story function. Players hit next to progr
                              allowSpace = false;
                              NextScene1Button.SetActive(true);
                              NextScene2Button.SetActive(true);
-                             NextScene3Button.SetActive(true);
                     }
 
 // ENCOUNTER AFTER CHOICE #1
@@ -409,13 +407,9 @@ public void talking(){         // main story function. Players hit next to progr
         }
 
         public void SceneChange1(){
-			//speech.text = "Share your super smart pigeon with the world.";
-               SceneManager.LoadScene("Scene4c");
+               SceneManager.LoadScene("End_Lose4c");
         }
         public void SceneChange2(){
-                SceneManager.LoadScene("Scene4a");
-        }
-        public void SceneChange3(){
-                SceneManager.LoadScene("End_Lose3d");
+                SceneManager.LoadScene("End_Win4c");
         }
 }
