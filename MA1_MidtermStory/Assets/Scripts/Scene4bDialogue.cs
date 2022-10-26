@@ -384,10 +384,10 @@ public void talking(){         // main story function. Players hit next to progr
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
-                Char1name.text = "Ohzi";
-                Char1speech.text = "You should have let me fail, I didn’t want to cheat.";
-                Char2name.text = "";
-                Char2speech.text = "";
+                //Char1name.text = "Ohzi";
+                //Char1speech.text = "You should have let me fail, I didn’t want to cheat.";
+                //Char2name.text = "";
+                //Char2speech.text = "";
                 primeInt = 99;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -395,10 +395,10 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice1bFunct(){
-                Char1name.text = "Ohzi";
-                Char1speech.text = "I really appreciate it, \n even if it was cheating.";
-                Char2name.text = "";
-                Char2speech.text = "";
+                //Char1name.text = "Ohzi";
+                //Char1speech.text = "I really appreciate it, \n even if it was cheating.";
+                //Char2name.text = "";
+                //Char2speech.text = "";
                 primeInt = 199;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
