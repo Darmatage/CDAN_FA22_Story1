@@ -63,7 +63,7 @@ public void talking(){         // main story function. Players hit next to progr
 				ArtChar2a.SetActive(true);
                 DialogueDisplay.SetActive(true);
                 Char1name.text = "Ohzi";
-                Char1speech.text = " Alright then, I guess I’m going to take you to class with me!";
+                Char1speech.text = "Alright then, I guess I’m going to take you to class with me!";
                 Char2name.text = "";
                 Char2speech.text = "";
                 //Char3name.text = "";
@@ -114,7 +114,7 @@ else if (primeInt == 20){
    }
    else if (primeInt == 21){
             Char1name.text = "Ohzi";
-            Char1speech.text = "Haha of course I’ll help you register, you just need a few credits to graduate with a degree afterall. In this game college is as free as a bird.";
+            Char1speech.text = "Haha. of course I’ll help you register, you just need a few credits to graduate with a degree after all. \n In this game college is as free as a bird.";
             Char2name.text = "";
             Char2speech.text = "";
    }
@@ -126,7 +126,7 @@ else if (primeInt == 20){
    }
    else if (primeInt == 23){
              Char1name.text = "Ohzi";
-             Char1speech.text = "Well I guess you could actually have a different opinion about that I realize.";
+             Char1speech.text = "Well I guess you could actually have a different opinion about that, I realize.";
              Char2name.text = "";
              Char2speech.text = "";
    }
@@ -134,7 +134,7 @@ else if (primeInt == 20){
              Char1name.text = "";
              Char1speech.text = "";
              Char2name.text = "Pigeon";
-             Char2speech.text = "Coo";
+             Char2speech.text = "Coo.";
    }
    else if (primeInt == 25){
              Char1name.text = "Ohzi";
@@ -164,7 +164,7 @@ else if (primeInt == 101){
  }
  else if (primeInt == 102){
           Char1name.text = "Ohzi";
-          Char1speech.text = "Aww you're welcome";
+          Char1speech.text = "Aww, you're welcome.";
           Char2name.text = "";
           Char2speech.text = "";
          primeInt = 19;
@@ -180,12 +180,12 @@ else if (primeInt == 200){
  else if (primeInt == 201){
           Char1name.text = "";
           Char1speech.text = "";
-          Char2name.text = "pigeon";
+          Char2name.text = "Pigeon";
           Char2speech.text = "*Grunts.*";
  }
 else if (primeInt == 202){
            Char1name.text = "Ohzi";
-           Char1speech.text = "Most birds aren't that smart come on, that is a logical question!";
+           Char1speech.text = "Most birds aren't that smart. Come on, that is a logical question!";
            Char2name.text = "";
            Char2speech.text = "";
  }
@@ -198,7 +198,7 @@ else if (primeInt == 203){
  }
  else if (primeInt == 204){
           Char1name.text = "Ohzi";
-          Char1speech.text = " Okay okay you're right I’m sorry I shouldn’t have assumed.";
+          Char1speech.text = " Okay, okay, you're right, I’m sorry. I shouldn’t have assumed.";
           Char2name.text = "";
           Char2speech.text = "";
           primeInt = 19;

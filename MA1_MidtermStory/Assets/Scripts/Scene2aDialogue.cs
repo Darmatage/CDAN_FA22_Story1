@@ -400,7 +400,7 @@ public void talking(){         // main story function. Players hit next to progr
               }
               else if (primeInt == 405){
                        Char1name.text = "Ohzi";
-                       Char1speech.text = "and add some pillows for you! ";
+                       Char1speech.text = "and add some pillows for you!";
                        Char2name.text = "";
                        Char2speech.text = "";
                }

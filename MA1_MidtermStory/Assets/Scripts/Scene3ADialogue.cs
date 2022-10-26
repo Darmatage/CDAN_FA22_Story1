@@ -125,7 +125,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
        else if (primeInt == 6){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "Uhhh..maybe?";
+                Char1speech.text = "Uhhh...maybe?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -173,14 +173,14 @@ public void talking(){         // main story function. Players hit next to progr
                    Char1name.text = "";
                    Char1speech.text = "";
                    Char2name.text = "Pigeon";
-                   Char2speech.text = "Coo Coo. *Blinks twice*";
+                   Char2speech.text = "Coo Coo. *Blinks twice.*";
                    Char3name.text = "";
                    Char3speech.text = "";
            }
           else if (primeInt == 22){
           //  ArtChar3.SetActive(true);
                   Char1name.text = "Ohzi";
-                  Char1speech.text = "See! It’s … friendly?";
+                  Char1speech.text = "See! It’s... friendly?";
                   Char2name.text = "";
                   Char2speech.text = "";
                   Char3name.text = "";
@@ -193,7 +193,7 @@ public void talking(){         // main story function. Players hit next to progr
                      Char2name.text = "";
                      Char2speech.text = "";
                      Char3name.text = "Moosh";
-                     Char3speech.text = " But why did you even bring it in here?";
+                     Char3speech.text = "But why did you even bring it in here?";
              }
             else if (primeInt == 24){
                     Char1name.text = "";
@@ -201,7 +201,7 @@ public void talking(){         // main story function. Players hit next to progr
                     Char2name.text = "";
                     Char2speech.text = "";
                     Char3name.text = "Moosh";
-                    Char3speech.text = "Didnt you know all wild birds are evil!?";
+                    Char3speech.text = "Didn't you know all wild birds are evil!?";
               }
 
               else if (primeInt == 25){
@@ -262,7 +262,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
         else if (primeInt == 101){
                  Char1name.text = "Ohzi";
-                 Char1speech.text = "You know… the .. the buy one Burrito, get one Pigeon free sale.";
+                 Char1speech.text = "You know... the... the buy one Burrito, get one Pigeon free sale.";
                  Char2name.text = "";
                  Char2speech.text = "";
                  Char3name.text = "";
@@ -290,7 +290,7 @@ public void talking(){         // main story function. Players hit next to progr
                     Char2name.text = "";
                     Char2speech.text = "";
                     Char3name.text = "Moosh";
-                    Char3speech.text = "Oh Yeah!";
+                    Char3speech.text = "Oh, yeah!";
             }
             else if (primeInt == 105){
                      Char1name.text = "";
@@ -365,7 +365,7 @@ public void talking(){         // main story function. Players hit next to progr
                    Char2name.text = "";
                    Char2speech.text = "";
                    Char3name.text = "Moosh";
-                   Char3speech.text = "No questions asked? ";
+                   Char3speech.text = "No questions asked?";
            }
            else if (primeInt == 204){
                     Char1name.text = "";
