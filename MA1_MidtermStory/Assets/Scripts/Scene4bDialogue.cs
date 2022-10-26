@@ -64,48 +64,47 @@ public void talking(){         // main story function. Players hit next to progr
                 // AudioSource.Play();
         }
         else if (primeInt == 2){
-               ArtChar3.SetActive(true);
+               ArtChar1b.SetActive(true);
                 DialogueDisplay.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "";
+                Char1name.text = "Ohzi";
+                Char1speech.text = "Uh ANYWAY look i’ts just a little plushie I made for class see?? I mean it only makes a sound when you poke it see?";
                 Char2name.text = "";
                 Char2speech.text = "";
-                Char3name.text = "Professor";
-                Char3speech.text = "Hey Ohzi can I speak with you before you head out?";
+                Char3name.text = "";
+                Char3speech.text = "";
         }
        else if (primeInt ==3){
-                ArtChar1.SetActive(true);
+                ArtChar2.SetActive(true);
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Pigeon";
+                Char2speech.text = "Coo.";
+				Char3name.text = "";
+                Char3speech.text = "";
+        }
+       else if (primeInt == 4){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "What?";
+                Char1speech.text = "You may say oh “Ohzi but that cute little guy is too nice to just be for a class project, I want one too!” and you wouldn't be the only one even I was susceptible to-";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
                 Char3speech.text = "";
-                //gameHandler.AddPlayerStat(1);
-        }
-       else if (primeInt == 4){
-                Char1name.text = "";
-                Char1speech.text = " ";
-                Char2name.text = "";
-                Char2speech.text = "";
-				Char3name.text = "Professor";
-                Char3speech.text = "I was going to try to talk to you about today's test results";
         }
 		 else if (primeInt == 5){
-                Char1name.text = "";
-                Char1speech.text = " ";
+                Char1name.text = "Ohzi";
+                Char1speech.text = "-I mean even I had the great idea to mass produce them!";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "Professor";
-                Char3speech.text = "I’ve never seen answers like these before…";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
        else if (primeInt == 6){
 		   ArtChar1.SetActive(false);
 		   ArtChar1b.SetActive(true);
-                Char1name.text = "Ohzi";
-                Char1speech.text = "*Sweating* Uh, what do you mean??";
-                Char2name.text = "";
-                Char2speech.text = "";
+                Char1name.text = "";
+                Char1speech.text = "";
+                Char2name.text = "Pigeon";
+                Char2speech.text = "Coo!";
 				Char3name.text = "";
                 Char3speech.text = "";
                 //gameHandler.AddPlayerStat(1);
