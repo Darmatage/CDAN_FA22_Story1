@@ -397,8 +397,8 @@ public void talking(){         // main story function. Players hit next to progr
         public void Choice1bFunct(){
                 //Char1name.text = "Ohzi";
                 //Char1speech.text = "I really appreciate it, \n even if it was cheating.";
-                //Char2name.text = "";
-                //Char2speech.text = "";
+                Char2name.text = "";
+                Char2speech.text = "";
                 primeInt = 199;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
