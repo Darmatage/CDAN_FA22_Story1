@@ -43,9 +43,12 @@ void Start(){         // initial visibility settings
 		ArtChar2b.SetActive(false);
         ArtChar3.SetActive(false);
         ArtChar3b.SetActive(false);
-        ArtBG1.SetActive(true);
+        ArtChar4.SetActive(false);
+        ArtChar4b.SetActive(false);
+		ArtChar4c.SetActive(false);
 		
 		ArtBG1.SetActive(true);
+		
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
         NextScene1Button.SetActive(false);
@@ -327,13 +330,14 @@ public void talking(){         // main story function. Players hit next to progr
 			Char1speech.text = "";
 			Char2name.text = "Pigeon";
 			Char2speech.text = "*Grunts*";
-			primeInt = 19;
+			
 		}
 		else if (primeInt == 102){
 			Char1name.text = "Ohzi";
 			Char1speech.text = "I know, I know, you were just trying to help. *Sigh*";
 			Char2name.text = "";
 			Char2speech.text = "";
+			primeInt = 6;
         }
 
 
@@ -399,6 +403,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "";
 				Char3name.text = "Moosh";
 				Char3speech.text = "Oh come on they may be a bit of a bird brain-";
+				primeInt = 6;
         }
 	}
 
@@ -408,6 +413,11 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Oh I’m not worried about me…";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
+				Char4name.text = "";
+                Char4speech.text = "";
+				
                 primeInt = 99;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -419,6 +429,11 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "But nobody understands! Nobody will accept us!";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
+				Char4name.text = "";
+                Char4speech.text = "";
+				
                 primeInt = 199;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
