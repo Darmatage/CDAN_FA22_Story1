@@ -15,16 +15,16 @@ public class Scene2aDialogue : MonoBehaviour {
     //    public Text Char3speech;
         public GameObject DialogueDisplay;
         public GameObject ArtChar1a;   //Ohzi - player
-        public GameObject ArtChar1b;
-        public GameObject ArtChar1c;
-        public GameObject ArtChar1d;
-        public GameObject ArtChar1e;
+        public GameObject ArtChar1b;   //wait
+        public GameObject ArtChar1c; //thumbs up
+        public GameObject ArtChar1d; //dab
+        public GameObject ArtChar1e; //shiny eye
 
         public GameObject ArtChar2a;   //pigeon
-        public GameObject ArtChar2b;
-        public GameObject ArtChar2c;
-        public GameObject ArtChar2d;
-        public GameObject ArtChar2e;
+        public GameObject ArtChar2b;  //wait
+        public GameObject ArtChar2c; //angry
+        public GameObject ArtChar2d;  //shinyeye
+        public GameObject ArtChar2e;  //dab
         //public GameObject ArtChar3;
         public GameObject ArtBG1;
         public GameObject Choice1a;
@@ -90,6 +90,8 @@ public void talking(){         // main story function. Players hit next to progr
         }
        else if (primeInt ==3){
          ArtBG1.SetActive(false);
+          ArtChar2a.SetActive(false);
+           ArtChar2c.SetActive(true);
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Pigeon";
@@ -97,12 +99,16 @@ public void talking(){         // main story function. Players hit next to progr
                 //gameHandler.AddPlayerStat(1);
         }
        else if (primeInt == 4){
+         ArtChar2c.SetActive(false);
+         ArtChar2e.SetActive(true);
                 Char1name.text = "Ohzi";
                 Char1speech.text = "Shhhhh, I know you're excited.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
        else if (primeInt == 5){
+         ArtChar2e.SetActive(false);
+         ArtChar2a.SetActive(true);
                 Char1name.text = "Ohzi";
                 Char1speech.text = "I’ll give you a little bread when we get there.";
                 Char2name.text = "";
@@ -128,6 +134,8 @@ public void talking(){         // main story function. Players hit next to progr
                   Char2speech.text = "*Blinks.*";
         }
         else if (primeInt == 9){
+          ArtChar1a.SetActive(false);
+          ArtChar1e.SetActive(true);
                   Char1name.text = "Ohzi";
                   Char1speech.text = "What? You don’t trust me yet?";
                   Char2name.text = "";
@@ -140,6 +148,8 @@ public void talking(){         // main story function. Players hit next to progr
                   Char2speech.text = "Cooo…";
         }
         else if (primeInt == 11){
+          ArtChar1e.SetActive(false);
+          ArtChar1a.SetActive(true);
                   Char1name.text = "Ohzi";
                   Char1speech.text = "Okay, okay how much bread do you need?";
                   Char2name.text = "";
