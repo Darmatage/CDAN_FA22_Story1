@@ -95,11 +95,11 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "Professor";
-                Char3speech.text = "Hey Ohzi can you come over here?";
+                Char3speech.text = "Hey, Ohzi, can you come over here?";
         }
        else if (primeInt == 3){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "Uh yeah? Did I do something wrong?";
+                Char1speech.text = "Uh, yeah. Did I do something wrong?";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -155,7 +155,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
         else if (primeInt == 10){
                  Char1name.text = "Ohzi";
-                 Char1speech.text = "… Uhhh. No?";
+                 Char1speech.text = "...Uhhh. No?";
                  Char2name.text = "";
                  Char2speech.text = "";
                  Char3name.text = "";
@@ -175,7 +175,7 @@ public void talking(){         // main story function. Players hit next to progr
                  Char2name.text = "";
                  Char2speech.text = "";
                  Char3name.text = "Professor";
-                 Char3speech.text = "although I wish you were–";
+                 Char3speech.text = "-although I wish you were–";
          }
          else if (primeInt == 13){
                   Char1name.text = "";
@@ -183,11 +183,11 @@ public void talking(){         // main story function. Players hit next to progr
                   Char2name.text = "";
                   Char2speech.text = "";
                   Char3name.text = "Professor";
-                  Char3speech.text = "and certainly won’t be the last student to try to bring a pet to class.";
+                  Char3speech.text = "-and certainly won’t be the last student to try to bring a pet to class.";
           }
           else if (primeInt == 14){
                    Char1name.text = "Ohzi";
-                   Char1speech.text = "Oh wait Professor, it's not a pet!";
+                   Char1speech.text = "Oh wait, Professor, it's not a pet!";
                    Char2name.text = "";
                    Char2speech.text = "";
                    Char3name.text = "";
@@ -237,7 +237,7 @@ public void talking(){         // main story function. Players hit next to progr
                   Char2name.text = "";
                   Char2speech.text = "";
                   Char3name.text = "Professor";
-                  Char3speech.text = "Ahem ANYWAY!";
+                  Char3speech.text = "Ahem, ANYWAY!";
                              // Turn off "Next" button, turn on "Choice" buttons
                              nextButton.SetActive(false);
                              allowSpace = false;
@@ -356,7 +356,7 @@ public void talking(){         // main story function. Players hit next to progr
               }
               else if (primeInt == 207){
                        Char1name.text = "Ohzi";
-                       Char1speech.text = "Nothing!! Nothing. ";
+                       Char1speech.text = "Nothing!! Nothing.";
                        Char2name.text = "";
                        Char2speech.text = "";
                        Char3name.text = "";

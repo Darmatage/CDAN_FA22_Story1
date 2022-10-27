@@ -125,7 +125,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
        else if (primeInt == 6){
                 Char1name.text = "Ohzi";
-                Char2name.text = "Uhhh...Uhhh noo? Pshhh no why would it be–";
+                Char2name.text = "Uhhh...Uhhh noo? Pshhh, why would it be–";
                 Char2speech.text = "";
                 Char3name.text = "";
                 Char3speech.text = "";
@@ -172,7 +172,7 @@ public void talking(){         // main story function. Players hit next to progr
                    Char1name.text = "";
                    Char1speech.text = "";
                    Char2name.text = "Pigeon";
-                   Char2speech.text = "*Blinks*";
+                   Char2speech.text = "*Blinks.*";
                    Char3name.text = "";
                    Char3speech.text = "";
            }

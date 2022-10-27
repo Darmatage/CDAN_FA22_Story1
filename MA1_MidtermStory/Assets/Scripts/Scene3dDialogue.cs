@@ -40,7 +40,7 @@ void Start(){         // initial visibility settings
         ArtChar3.SetActive(false);
         ArtChar3b.SetActive(false);
         ArtBG1.SetActive(true);
-		
+
 		ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -49,7 +49,7 @@ void Start(){         // initial visibility settings
         NextScene3Button.SetActive(false);
         nextButton.SetActive(true);
    }
-    
+
 void Update(){         // use spacebar as Next button
         if (allowSpace == true){
                 if (Input.GetKeyDown("space")){
@@ -72,7 +72,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "Professor";
-                Char3speech.text = "Hey Ohzi can I speak with you before you head out?";
+                Char3speech.text = "Hey Ohzi, can I speak with you before you head out?";
         }
        else if (primeInt ==3){
                 ArtChar1.SetActive(true);
@@ -90,7 +90,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "Professor";
-                Char3speech.text = "I was going to try to talk to you about today's test results";
+                Char3speech.text = "I was going to try to talk to you about today's test results.";
         }
 		 else if (primeInt == 5){
                 Char1name.text = "";
@@ -140,7 +140,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Pigeon";
-                Char2speech.text = "Coo";
+                Char2speech.text = "Coo.";
 				Char3name.text = "";
                 Char3speech.text = "";
         }
@@ -162,7 +162,7 @@ public void talking(){         // main story function. Players hit next to progr
 		}
         else if (primeInt == 13) {
                  Char1name.text = "Ohzi";
-                 Char1speech.text = "… Uhhh. No?";
+                 Char1speech.text = "…Uhhh. No?";
                  Char2name.text = "";
                  Char2speech.text = "";
 				 Char3name.text = "";
@@ -174,11 +174,11 @@ public void talking(){         // main story function. Players hit next to progr
                  Char2name.text = "";
                  Char2speech.text = "";
 				 Char3name.text = "Professor";
-                Char3speech.text = "Alright! I'll see you at the ceremony tonight, right?";
+                Char3speech.text = "Alright... I'll see you at the ceremony tonight, right?";
 		}
 		else if (primeInt == 15){
                  Char1name.text = "Ohzi";
-                 Char1speech.text = "Oh right of course! Totally.";
+                 Char1speech.text = "Oh, right, of course! Totally.";
                  Char2name.text = "";
                  Char2speech.text = "";
 				 Char3name.text = "";
@@ -221,8 +221,8 @@ public void talking(){         // main story function. Players hit next to progr
                  Char1speech.text = "Okayyy then…";
                  Char2name.text = "";
                  Char2speech.text = "";
-				 Char3name.text = "";
-                Char3speech.text = "";
+				         Char3name.text = "";
+                 Char3speech.text = "";
 		}
 		else if (primeInt == 21){
                  Char1name.text = "";
@@ -234,7 +234,7 @@ public void talking(){         // main story function. Players hit next to progr
 		}
 		else if (primeInt == 22){
                  Char1name.text = "Ohzi";
-                 Char1speech.text = "Oh hey you were so quiet, I almost forgot you were there.";
+                 Char1speech.text = "Oh, hey, you were so quiet, I almost forgot you were there.";
                  Char2name.text = "";
                  Char2speech.text = "";
 				 Char3name.text = "";
@@ -289,7 +289,7 @@ public void talking(){         // main story function. Players hit next to progr
              }
             else if (primeInt == 28){
                     Char1name.text = "Ohzi";
-                    Char1speech.text = "!!! Oh no.";
+                    Char1speech.text = "!!!";
                     Char2name.text = "";
                     Char2speech.text = "";
                     Char3name.text = "";
@@ -314,7 +314,7 @@ public void talking(){         // main story function. Players hit next to progr
                 }
                 else if (primeInt == 31){
                          Char1name.text = "Ohzi";
-                         Char1speech.text = "Uh";
+                         Char1speech.text = "Uh. Oh no...";
                          Char2name.text = "";
                          Char2speech.text = "";
                          Char3name.text = "";
@@ -351,7 +351,7 @@ public void talking(){         // main story function. Players hit next to progr
 // ENCOUNTER AFTER CHOICE #2
        else if (primeInt == 200){
                 Char1name.text = "Ohzi";
-                Char1speech.text = " I really appreciate the help even if it was cheating haha.";
+                Char1speech.text = "I really appreciate the help, even if it was cheating haha.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -376,12 +376,12 @@ public void talking(){         // main story function. Players hit next to progr
         }
 		 else if (primeInt == 204){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "You’re right,I can't be worrying about it right now, we have to go!";
+                Char1speech.text = "You’re right, I can't be worrying about it right now, we have to go!";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
-	
-		
+
+
      }
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
