@@ -209,7 +209,7 @@ public void talking(){         // main story function. Players hit next to progr
                           Char3speech.text = "Coo.";
                     }
                     else if (primeInt == 31){
-                             Char1name.text = "Ohzi";
+                             Char1name.text = "";
                              Char1speech.text = "";
                              Char2name.text = "";
                              Char2speech.text = "";
