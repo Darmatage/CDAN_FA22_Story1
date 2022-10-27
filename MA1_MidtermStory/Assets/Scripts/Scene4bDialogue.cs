@@ -18,10 +18,10 @@ public class Scene4bDialogue : MonoBehaviour {
 		public GameObject ArtChar1b;	//nervous
         public GameObject ArtChar2;   //pigeon
 		public GameObject ArtChar2b;	//nervous
-		//public GameObject ArtChar2c;	//Excited
+		public GameObject ArtChar2c;	//Excited
         public GameObject ArtChar3;   //Mad Scientist
 		public GameObject ArtChar3b;	//nervous
-		//public GameObject ArtChar3c;		//excited
+		public GameObject ArtChar3c;		//excited
         public GameObject ArtBG1;	//Lab
 		//public GameObject ArtBG2;   //splash_academy
         public GameObject Choice1a;
@@ -252,7 +252,7 @@ public void talking(){         // main story function. Players hit next to progr
 		}
 		else if (primeInt == 23){
 			ArtChar3.SetActive(false);
-		    //ArtChar3c.SetActive(true); //crazy
+		    ArtChar3c.SetActive(true); //crazy
                  Char1name.text = "";
                  Char1speech.text = "";
                  Char2name.text = "";
@@ -268,7 +268,7 @@ public void talking(){         // main story function. Players hit next to progr
 
          else if (primeInt == 24){
 				ArtChar3b.SetActive(true);
-				//ArtChar3c.SetActive(false); //crazy-Excited
+				ArtChar3c.SetActive(false); //crazy-Excited
                   Char1name.text = "";
                   Char1speech.text = "";
                   Char2name.text = "";
