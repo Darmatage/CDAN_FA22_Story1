@@ -21,6 +21,7 @@ public class Scene4cDialogue : MonoBehaviour {
         public GameObject ArtChar3;   //Mad Scientist
 		public GameObject ArtChar3b;
         public GameObject ArtBG1;
+		public GameObject ArtBG2;   //splash_academy
         public GameObject Choice1a;
         public GameObject Choice1b;
         public GameObject NextScene1Button;
@@ -40,7 +41,7 @@ void Start(){         // initial visibility settings
         ArtChar3b.SetActive(false);
         ArtBG1.SetActive(true);
 		
-		ArtBG1.SetActive(true);
+		ArtBG2.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
         NextScene1Button.SetActive(false);
@@ -66,12 +67,12 @@ public void talking(){         // main story function. Players hit next to progr
         else if (primeInt == 2){
                ArtChar3.SetActive(true);
                 DialogueDisplay.SetActive(true);
-                Char1name.text = "";
-                Char1speech.text = "";
+                Char1name.text = "Ohzi";
+                Char1speech.text = "You see, I have a secret..a secret to my success…";
                 Char2name.text = "";
                 Char2speech.text = "";
-                Char3name.text = "Professor";
-                Char3speech.text = "Hey Ohzi can I speak with you before you head out?";
+                Char3name.text = "";
+                Char3speech.text = "";
         }
        else if (primeInt ==3){
                 ArtChar1.SetActive(true);
@@ -160,6 +161,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char3speech.text = "";
 		}
         else if (primeInt == 13) {
+			ArtBG1.SetActive(true);
+			ArtBG2.SetActive(false);
                  Char1name.text = "Ohzi";
                  Char1speech.text = "… Uhhh. No?";
                  Char2name.text = "";
