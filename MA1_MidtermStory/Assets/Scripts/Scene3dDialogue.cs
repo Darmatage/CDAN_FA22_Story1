@@ -124,7 +124,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "professor";
+				        Char3name.text = "professor";
                 Char3speech.text = "I haven’t taught this subject yet in class–";
         }
 		 else if (primeInt == 9){
@@ -217,6 +217,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char3speech.text = " I HAVE to brag! *leaves*";
 		}
 		else if (primeInt == 20){
+      ArtChar3.SetActive(false);
                  Char1name.text = "Ohzi";
                  Char1speech.text = "Okayyy then…";
                  Char2name.text = "";
@@ -254,14 +255,14 @@ public void talking(){         // main story function. Players hit next to progr
                  Choice1b.SetActive(true); // function Choice1bFunct()
         }
 
-         else if (primeInt == 24){
+         else if (primeInt == 30){
            ArtChar2.SetActive(false);
                   Char1name.text = "";
                   Char1speech.text = "";
                   Char2name.text = "Pigeon";
                   Char2speech.text = "Coo?";
           }
-          else if (primeInt == 25){
+          else if (primeInt == 31){
                    Char1name.text = "Ohzi";
                    Char1speech.text = "Well, now we’re at this big award ceremony. Of course I’m nervous!";
                    Char2name.text = "";
@@ -269,7 +270,7 @@ public void talking(){         // main story function. Players hit next to progr
                    Char3name.text = "";
                    Char3speech.text = "";
            }
-          else if (primeInt == 26){
+          else if (primeInt == 32){
             ArtChar3.SetActive(true);
                   Char1name.text = "";
                   Char1speech.text = "";
@@ -279,7 +280,7 @@ public void talking(){         // main story function. Players hit next to progr
                   Char3speech.text = "";
             }
 
-            else if (primeInt == 27){
+            else if (primeInt == 33){
                      Char1name.text = "";
                      Char1speech.text = "";
                      Char2name.text = "";
@@ -287,7 +288,7 @@ public void talking(){         // main story function. Players hit next to progr
                      Char3name.text = "Professor";
                      Char3speech.text = "And the award for academic excellence goes to…";
              }
-            else if (primeInt == 28){
+            else if (primeInt == 34){
                     Char1name.text = "Ohzi";
                     Char1speech.text = "!!!";
                     Char2name.text = "";
@@ -296,7 +297,7 @@ public void talking(){         // main story function. Players hit next to progr
                     Char3speech.text = "";
               }
 
-              else if (primeInt == 29){
+              else if (primeInt == 35){
                        Char1name.text = "";
                        Char1speech.text = "";
                        Char2name.text = "";
@@ -304,7 +305,7 @@ public void talking(){         // main story function. Players hit next to progr
                        Char3name.text = "Professor";
                        Char3speech.text = "Ohzi!!";
                }
-              else if (primeInt == 30){
+              else if (primeInt == 36){
                       Char1name.text = "";
                       Char1speech.text = "";
                       Char2name.text = "";
@@ -312,7 +313,7 @@ public void talking(){         // main story function. Players hit next to progr
                       Char3name.text = "Pigeon";
                       Char3speech.text = "...Coo!";
                 }
-                else if (primeInt == 31){
+                else if (primeInt == 37){
                          Char1name.text = "Ohzi";
                          Char1speech.text = "Uh. Oh no...";
                          Char2name.text = "";
@@ -339,13 +340,14 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "Pigeon";
                 Char2speech.text = "*Grunts*";
-                primeInt = 19;
+
 			}
 			else if (primeInt == 102){
                 Char1name.text = "Ohzi";
                 Char1speech.text = "I know, I know, you were just trying to help. *Sigh*";
                 Char2name.text = "";
                 Char2speech.text = "";
+                    primeInt = 29;
         }
 
 // ENCOUNTER AFTER CHOICE #2
@@ -360,7 +362,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "Pigeon";
                 Char2speech.text = "CooCoo!";
-                primeInt = 19;
+
         }
 		 else if (primeInt == 202){
                 Char1name.text = "Ohzi";
@@ -379,6 +381,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "You’re right, I can't be worrying about it right now, we have to go!";
                 Char2name.text = "";
                 Char2speech.text = "";
+                  primeInt = 29;
         }
 
 
