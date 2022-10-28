@@ -463,12 +463,27 @@ public void talking(){         // main story function. Players hit next to progr
 				}
                 else if (primeInt == 60){
                          Char1name.text = "";
-                         Char1speech.text = "";
+                         Char1speech.text = "Do you know what you’re going to do?";
                          Char2name.text = "";
                          Char2speech.text = "";
-                         Char3name.text = "Mad Scientist";
-                         Char3speech.text = "Oh you mean leave right NOW…Adieu! To you both I guess.";
-						 
+                         Char3name.text = "";
+                         Char3speech.text = "";
+				}
+                else if (primeInt == 60){
+                         Char1name.text = "";
+                         Char1speech.text = "";
+                         Char2name.text = "Pigeon";
+                         Char2speech.text = "*Blinks*";
+                         Char3name.text = "";
+                         Char3speech.text = "";
+						 }
+                else if (primeInt == 60){
+                         Char1name.text = "Ohzi";
+                         Char1speech.text = "Well..";
+                         Char2name.text = "";
+                         Char2speech.text = "";
+                         Char3name.text = "";
+                         Char3speech.text = "";
                              // Turn off "Next" button, turn on "Choice" buttons
                              nextButton.SetActive(false);
                              allowSpace = false;
