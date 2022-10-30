@@ -499,7 +499,6 @@ public void talking(){         // main story function. Players hit next to progr
                          Char2speech.text = "";
                          Char3name.text = "Mad Scientist";
                          Char3speech.text = "Oh you mean leave right NOW…Adieu! To you both I guess.";
-						 
 						 // Turn off "Next" button, turn on "Choice" buttons
 						 nextButton.SetActive(false);
 						 allowSpace = false;
@@ -513,14 +512,14 @@ public void talking(){         // main story function. Players hit next to progr
 				    ArtChar1b.SetActive(false);
 				    ArtChar2.SetActive(true);
 			        ArtChar2b.SetActive(false);
-                         Char1name.text = "";
+                         Char1name.text = "Ohzi";
                          Char1speech.text = "Do you know what you’re going to do?";
                          Char2name.text = "";
                          Char2speech.text = "";
                          Char3name.text = "";
                          Char3speech.text = "";
 				}
-                else if (primeInt == 60){
+                else if (primeInt == 61){
 					ArtChar2b.SetActive(true);
 					ArtChar2.SetActive(false);		
                          Char1name.text = "";
@@ -530,7 +529,7 @@ public void talking(){         // main story function. Players hit next to progr
                          Char3name.text = "";
                          Char3speech.text = "";
 						 }
-                else if (primeInt == 60){
+                else if (primeInt == 62){
 					ArtChar1b.SetActive(true);
 				    ArtChar1.SetActive(false);
                          Char1name.text = "Ohzi";
@@ -588,6 +587,8 @@ public void talking(){         // main story function. Players hit next to progr
         }
 // ENCOUNTER AFTER CHOICE #2A
        else if (primeInt == 300){
+		Choice2a.SetActive(false);
+		Choice2b.SetActive(false);
 		    ArtChar3b.SetActive(false);
 			ArtChar3.SetActive(false);
 			ArtChar1.SetActive(true);
@@ -598,24 +599,32 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "…You're the one who sent HIM a holiday card? How does he know you?";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		 else if (primeInt == 301){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Pigeon";
                 Char2speech.text = "Coo Coo!";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		 else if (primeInt == 302){
                 Char1name.text = "Ohzi";
                 Char1speech.text = "Why didn’t I get a holiday card?";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		 else if (primeInt == 303){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Pigeon";
                 Char2speech.text = "...";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		 else if (primeInt == 304){
 			ArtChar2.SetActive(true);
@@ -624,6 +633,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "Pigeon";
                 Char2speech.text = "Coooo.";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		 else if (primeInt == 305){
 			ArtChar1b.SetActive(true);
@@ -632,10 +643,14 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "Well that’s rude.";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
 				 primeInt = 59;
         }
 // ENCOUNTER AFTER CHOICE #2B
        else if (primeInt == 401){
+		Choice2b.SetActive(false);
+		Choice2a.SetActive(false);
 		    ArtChar3b.SetActive(false);
 		    ArtChar3.SetActive(false);
 			ArtChar1b.SetActive(true);
@@ -646,18 +661,24 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "...How did he get in this time?";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		       else if (primeInt == 402){
                 Char1name.text = "Ohzi";
                 Char1speech.text = "Was he here the whole time???";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		       else if (primeInt == 403){
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Pigeon";
                 Char2speech.text = "Coo?";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		       else if (primeInt == 404){
 				ArtChar1.SetActive(true);
@@ -668,12 +689,16 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "No, everything is locked from the inside and we have extensive alarm systems.";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		       else if (primeInt == 405){
                 Char1name.text = "";
                 Char1speech.text = " ";
                 Char2name.text = "Pigeon";
                 Char2speech.text = "...";
+				Char3name.text = "";
+                Char3speech.text = "";
         }
 		       else if (primeInt == 406){
 				ArtChar1b.SetActive(true);
@@ -682,6 +707,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "I don’t want to know";
                 Char2name.text = "";
                 Char2speech.text = "";
+				Char3name.text = "";
+                Char3speech.text = "";
 				primeInt = 59;
         }
 }
@@ -702,8 +729,8 @@ public void talking(){         // main story function. Players hit next to progr
         public void Choice1bFunct(){
                 //Char1name.text = "Ohzi";
                 //Char1speech.text = "Yes.";
-                Char2name.text = "";
-                Char2speech.text = "";
+                //Char2name.text = "";
+                //Char2speech.text = "";
                 primeInt = 199;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -724,8 +751,8 @@ public void talking(){         // main story function. Players hit next to progr
         public void Choice2bFunct(){
                 //Char1name.text = "Ohzi";
                 //Char1speech.text = "…How did he get in this time?";
-                Char2name.text = "";
-                Char2speech.text = "";
+                //Char2name.text = "";
+                //Char2speech.text = "";
                 primeInt = 399;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
