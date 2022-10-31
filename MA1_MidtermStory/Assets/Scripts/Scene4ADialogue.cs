@@ -52,9 +52,9 @@ void Start(){         // initial visibility settings
 		ArtChar4.SetActive(false);
         ArtChar4b.SetActive(false);
 		ArtChar4c.SetActive(false);
-		
+
 		ArtBG1.SetActive(true);
-		
+
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
         NextScene1Button.SetActive(false);
@@ -62,7 +62,7 @@ void Start(){         // initial visibility settings
         //NextScene3Button.SetActive(false);
         nextButton.SetActive(true);
    }
-    
+
 void Update(){         // use spacebar as Next button
         if (allowSpace == true){
                 if (Input.GetKeyDown("space")){
@@ -227,8 +227,11 @@ public void talking(){         // main story function. Players hit next to progr
                  Char1speech.text = "Don’t You Dare.";
                  Char2name.text = "";
                  Char2speech.text = "";
-				 Char3name.text = "";
+				             Char3name.text = "";
                 Char3speech.text = "";
+
+                if (GameHandler.NiceToPigeon == true){primeInt = 49;} //takes to branch
+                else {primeInt = 19;}
 		}
 		else if (primeInt == 20){
                  Char1name.text = "";
@@ -351,8 +354,30 @@ public void talking(){         // main story function. Players hit next to progr
                              NextScene2Button.SetActive(true);
              }
 
+             else if (primeInt == 50){
+                      Char1name.text = "";
+                      Char1speech.text = "";
+                      Char2name.text = "Pigeon";
+                      Char2speech.text = "Placeholder for pigeon being decent and not taking a shit.";
+                      Char3name.text = "";
+                      Char3speech.text = "";
+                      Char4name.text = "";
+                      Char4speech.text = "";
+                      }
+              else if (primeInt == 51){
+                      Char1name.text = "";
+                      Char1speech.text = "";
+                      Char2name.text = "Pigeon";
+                      Char2speech.text = "Placeholder for pigeon being decent and not taking a shit. Line 2.";
+                      Char3name.text = "";
+                      Char3speech.text = "";
+                      Char4name.text = "";
+                      Char4speech.text = "";
+                      primeInt = 23;
+                     }
+
 // ENCOUNTER AFTER CHOICE #1
-		
+
 		else if (primeInt == 100){
 			Char1name.text = "Ohzi";
 			Char1speech.text = "Oh but it's not me I'm worried about here anymore.";
@@ -551,7 +576,7 @@ public void talking(){         // main story function. Players hit next to progr
                 //Char3speech.text = "";
 				//Char4name.text = "";
                 //Char4speech.text = "";
-				
+
                 primeInt = 199;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -566,4 +591,3 @@ public void talking(){         // main story function. Players hit next to progr
                 SceneManager.LoadScene("End_Win4a");
         }
 }
-	

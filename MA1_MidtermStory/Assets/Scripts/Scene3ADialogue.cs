@@ -15,16 +15,16 @@ public class Scene3ADialogue : MonoBehaviour {
         public Text Char3speech;
         public GameObject DialogueDisplay;
         public GameObject ArtChar1a;   //Ohzi - player
-        public GameObject ArtChar1b;
-        public GameObject ArtChar1c;
-        public GameObject ArtChar1d;
-        public GameObject ArtChar1e;
+        public GameObject ArtChar1b;   //wait
+        public GameObject ArtChar1c; //thumbs up
+        public GameObject ArtChar1d; //dab
+        public GameObject ArtChar1e; //shiny eye
 
         public GameObject ArtChar2a;   //pigeon
-        public GameObject ArtChar2b;
-        public GameObject ArtChar2c;
-        public GameObject ArtChar2d;
-        public GameObject ArtChar2e;
+        public GameObject ArtChar2b;  //wait
+        public GameObject ArtChar2c; //angry
+        public GameObject ArtChar2d;  //shinyeye
+        public GameObject ArtChar2e;  //dab
 
         public GameObject ArtChar3a;   //Moosh
         public GameObject ArtChar3b;
