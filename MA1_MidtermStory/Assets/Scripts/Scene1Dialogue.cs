@@ -17,6 +17,7 @@ public class Scene1Dialogue : MonoBehaviour {
         public GameObject ArtChar1;   //Ohzi - player
         public GameObject ArtChar2;   //vendor
         public GameObject ArtChar3;   //pigeon
+        public GameObject ArtChar4;   //Ohzi-excited
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
@@ -33,6 +34,7 @@ void Start(){         // initial visibility settings
         ArtChar1.SetActive(false);
         ArtChar2.SetActive(false);
         ArtChar3.SetActive(false);
+        ArtChar4.SetActive(false);
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -49,7 +51,7 @@ void Update(){         // use spacebar as Next button
                 }
         }
    }
-   
+
 
 //Story Units:
 public void talking(){         // main story function. Players hit next to progress to next int
@@ -194,6 +196,8 @@ public void talking(){         // main story function. Players hit next to progr
                         Char3speech.text = "*Blinks.*";
                   }
                   else if (primeInt == 29){
+                    ArtChar1.SetActive(false);
+         ArtChar4.SetActive(true);
                            Char1name.text = "Ohzi";
                            Char1speech.text = "Do you want to come with me?";
                            Char2name.text = "";

@@ -137,8 +137,7 @@ public void talking(){         // main story function. Players hit next to progr
                   Char2speech.text = "*Blinks.*";
         }
         else if (primeInt == 9){
-          ArtChar1a.SetActive(false);
-          ArtChar1e.SetActive(true);
+
                   Char1name.text = "Ohzi";
                   Char1speech.text = "What? You don’t trust me yet?";
                   Char2name.text = "";
@@ -389,6 +388,8 @@ public void talking(){         // main story function. Players hit next to progr
 
      // ENCOUNTER AFTER CHOICE #2B
             else if (primeInt == 400){
+              ArtChar1a.SetActive(false);
+              ArtChar1e.SetActive(true);
                      Char1name.text = "Ohzi";
                      Char1speech.text = "I could build you a blanket nest!";
                      Char2name.text = "";
@@ -425,6 +426,8 @@ public void talking(){         // main story function. Players hit next to progr
                         Char2speech.text = "";
                 }
             else if (primeInt == 407){
+              ArtChar1e.SetActive(false);
+              ArtChar1a.SetActive(true);
                      Char1name.text = "";
                      Char1speech.text = "";
                      Char2name.text = "Pigeon";

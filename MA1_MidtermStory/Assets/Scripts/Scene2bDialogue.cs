@@ -15,7 +15,8 @@ public class Scene2bDialogue : MonoBehaviour {
     //    public Text Char3speech;
         public GameObject DialogueDisplay;
         public GameObject ArtChar1a;   //Ohzi - player
-
+        public GameObject ArtChar1b;   //Ohzi - excited
+        public GameObject ArtChar1c;   //Ohzi - dab
         public GameObject ArtChar2a;   //pigeon
 
         //public GameObject ArtChar3;
@@ -34,6 +35,8 @@ public class Scene2bDialogue : MonoBehaviour {
 void Start(){         // initial visibility settings
         DialogueDisplay.SetActive(false);
           ArtChar1a.SetActive(false);
+        ArtChar1b.SetActive(false);
+        ArtChar1c.SetActive(false);
         ArtChar2a.SetActive(false);
         ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
@@ -91,7 +94,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2speech.text = "*Blinks.*";
         }
        else if (primeInt == 6){
-         Char1name.text = "";
+         Char1name.text = "Ohzi";
          Char1speech.text = "";
          Char2name.text = "";
          Char2speech.text = "";
@@ -151,18 +154,24 @@ else if (primeInt == 20){
 
 // ENCOUNTER AFTER CHOICE #1A
 else if (primeInt == 100){
+         ArtChar1a.SetActive(false);
+         ArtChar1b.SetActive(true);
          Char1name.text = "Ohzi";
          Char1speech.text = "I just haven’t met anybirdy as smart as you before, I want to see what you can do in college!";
          Char2name.text = "";
          Char2speech.text = "";
  }
 else if (primeInt == 101){
+  ArtChar1b.SetActive(false);
+  ArtChar1c.SetActive(true);
          Char1name.text = "";
          Char1speech.text = "";
          Char2name.text = "Pigeon";
          Char2speech.text = "Coo cooo.";
  }
  else if (primeInt == 102){
+   ArtChar1c.SetActive(false);
+   ArtChar1a.SetActive(true);
           Char1name.text = "Ohzi";
           Char1speech.text = "Aww, you're welcome.";
           Char2name.text = "";
