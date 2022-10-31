@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 17900448}
   - component: {fileID: 17900447}
   m_Layer: 5
-  m_Name: ImagePigeon1D_
+  m_Name: ImagePigeon1D_dab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 18551835}
   - component: {fileID: 18551834}
   m_Layer: 5
-  m_Name: ImagePigeon1C_
+  m_Name: ImagePigeon1C_excited
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -435,7 +435,7 @@ GameObject:
   - component: {fileID: 167301709}
   - component: {fileID: 167301708}
   m_Layer: 5
-  m_Name: ImageOhzi1E_Excited
+  m_Name: ImageOhzi1E_shinyeye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -931,7 +931,7 @@ GameObject:
   - component: {fileID: 542499827}
   - component: {fileID: 542499826}
   m_Layer: 5
-  m_Name: ImagePigeon1B_
+  m_Name: ImagePigeon1B_wait
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1288,20 +1288,20 @@ MonoBehaviour:
   Char3speech: {fileID: 1546473429}
   DialogueDisplay: {fileID: 7791780710561627449}
   ArtChar1a: {fileID: 1485442709}
-  ArtChar1b: {fileID: 0}
-  ArtChar1c: {fileID: 0}
-  ArtChar1d: {fileID: 0}
-  ArtChar1e: {fileID: 0}
+  ArtChar1b: {fileID: 1465538640}
+  ArtChar1c: {fileID: 1478453952}
+  ArtChar1d: {fileID: 24970531}
+  ArtChar1e: {fileID: 167301706}
   ArtChar2a: {fileID: 2050361352}
-  ArtChar2b: {fileID: 0}
-  ArtChar2c: {fileID: 0}
-  ArtChar2d: {fileID: 0}
-  ArtChar2e: {fileID: 0}
+  ArtChar2b: {fileID: 542499824}
+  ArtChar2c: {fileID: 18551832}
+  ArtChar2d: {fileID: 17900445}
+  ArtChar2e: {fileID: 1221339409}
   ArtChar3a: {fileID: 1680149826}
-  ArtChar3b: {fileID: 0}
-  ArtChar3c: {fileID: 0}
-  ArtChar3d: {fileID: 0}
-  ArtChar3e: {fileID: 0}
+  ArtChar3b: {fileID: 1844019411}
+  ArtChar3c: {fileID: 929492378}
+  ArtChar3d: {fileID: 766281474}
+  ArtChar3e: {fileID: 920808523}
   ArtBG1: {fileID: 281458698}
   Choice1a: {fileID: 1280714117}
   Choice1b: {fileID: 280485621}
@@ -1321,7 +1321,7 @@ GameObject:
   - component: {fileID: 766281477}
   - component: {fileID: 766281476}
   m_Layer: 5
-  m_Name: ImageMoosh3D_
+  m_Name: ImageMoosh3D_dab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1367,7 +1367,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8fe0d90a07ef74d5aa1bd004d72067b7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2d0eeb71ae8a542378ba728727b42895, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1481,7 +1481,7 @@ GameObject:
   - component: {fileID: 920808526}
   - component: {fileID: 920808525}
   m_Layer: 5
-  m_Name: ImageMoosh3E_
+  m_Name: ImageMoosh3E_shinyeye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1527,7 +1527,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8fe0d90a07ef74d5aa1bd004d72067b7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dab83a1e042214c3880b64e9d31a433c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1557,7 +1557,7 @@ GameObject:
   - component: {fileID: 929492381}
   - component: {fileID: 929492380}
   m_Layer: 5
-  m_Name: ImageMoosh3C_
+  m_Name: ImageMoosh3C_play
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1603,7 +1603,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8fe0d90a07ef74d5aa1bd004d72067b7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f7696fd1fb627480db53cfd01061ebd7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 1221339412}
   - component: {fileID: 1221339411}
   m_Layer: 5
-  m_Name: ImagePigeon1E_
+  m_Name: ImagePigeon1E_shiny eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2159,7 +2159,7 @@ GameObject:
   - component: {fileID: 1478453955}
   - component: {fileID: 1478453954}
   m_Layer: 5
-  m_Name: ImageOhzi1C_Joyful
+  m_Name: ImageOhzi1C_thumbsup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2960,7 +2960,7 @@ GameObject:
   - component: {fileID: 1844019414}
   - component: {fileID: 1844019413}
   m_Layer: 5
-  m_Name: ImageMoosh3B_
+  m_Name: ImageMoosh3B_wait
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3006,7 +3006,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8fe0d90a07ef74d5aa1bd004d72067b7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4cef0c3bae6ab4d10832dc8099baa2eb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
