@@ -8,12 +8,14 @@ using UnityEngine.Audio;
 public class GameHandler : MonoBehaviour {
 
 	public static int playerStat;
-	
+
 	public static bool GameisPaused = false;
 	public GameObject pauseMenuUI;
 	public AudioMixer mixer;
 	public static float volumeLevel = 1.0f;
 	private Slider sliderVolumeCtrl;
+
+	public static bool NiceToPigeon = false;
 
 	void Awake (){
 		SetLevel (volumeLevel);

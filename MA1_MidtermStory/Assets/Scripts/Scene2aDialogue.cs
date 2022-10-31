@@ -39,6 +39,9 @@ public class Scene2aDialogue : MonoBehaviour {
        //public AudioSource audioSource;
         private bool allowSpace = true;
 
+
+
+
 void Start(){         // initial visibility settings
         DialogueDisplay.SetActive(false);
         ArtChar1a.SetActive(false);
@@ -96,7 +99,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "Pigeon";
                 Char2speech.text = "Coo Coo? *Stomps little feets.*";
-                //gameHandler.AddPlayerStat(1);
+
         }
        else if (primeInt == 4){
          ArtChar2c.SetActive(false);
@@ -113,7 +116,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "I’ll give you a little bread when we get there.";
                 Char2name.text = "";
                 Char2speech.text = "";
-                //gameHandler.AddPlayerStat(1);
+
         }
        else if (primeInt == 6){
                 Char1name.text = "Ohzi";
@@ -289,6 +292,7 @@ public void talking(){         // main story function. Players hit next to progr
                   Char1speech.text = "See, you know I care, silly! You can’t disagree.";
                   Char2name.text = "";
                   Char2speech.text = "";
+                  GameHandler.NiceToPigeon = true; //THIS IS THE STATIC VARIABLE, DO NOT TOUCH
                 primeInt = 19;
         }
 
