@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
-public class Scene4aDialogue : MonoBehaviour {
+public class Scene4ADialogue : MonoBehaviour {
         public int primeInt = 1;         // This integer drives game progress!
         public Text Char1name;
         public Text Char1speech;
@@ -224,7 +224,7 @@ public void talking(){         // main story function. Players hit next to progr
 		}
 		else if (primeInt == 19){
                  Char1name.text = "Ohzi";
-                 Char1speech.text = "Don’t You Dare.";
+                 Char1speech.text = "Don’t. You. Dare.";
                  Char2name.text = "";
                  Char2speech.text = "";
 				             Char3name.text = "";
@@ -252,7 +252,6 @@ public void talking(){         // main story function. Players hit next to progr
                  Char4speech.text = "";
 		}
 		else if (primeInt == 22){
-			ArtChar3.SetActive(false);
 			ArtChar4.SetActive(true);
                  Char1name.text = "";
                  Char1speech.text = "";
@@ -298,7 +297,6 @@ public void talking(){         // main story function. Players hit next to progr
                    Char4speech.text = "AHEM! Sorry where were we? OH RIGHT!";
            }
           else if (primeInt == 26){
-            ArtChar3.SetActive(true);
                   Char1name.text = "";
                   Char1speech.text = "";
                   Char2name.text = "Pigeon";
@@ -358,7 +356,7 @@ public void talking(){         // main story function. Players hit next to progr
                       Char1name.text = "";
                       Char1speech.text = "";
                       Char2name.text = "Pigeon";
-                      Char2speech.text = "Placeholder for pigeon being decent and not taking a shit.";
+                      Char2speech.text = "*Grunts, but has the decency to waddle \n down the isle without incident.*";
                       Char3name.text = "";
                       Char3speech.text = "";
                       Char4name.text = "";
@@ -368,7 +366,7 @@ public void talking(){         // main story function. Players hit next to progr
                       Char1name.text = "";
                       Char1speech.text = "";
                       Char2name.text = "Pigeon";
-                      Char2speech.text = "Placeholder for pigeon being decent and not taking a shit. Line 2.";
+                      Char2speech.text = "Coo. Coo coo.";
                       Char3name.text = "";
                       Char3speech.text = "";
                       Char4name.text = "";
@@ -497,6 +495,8 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "But Moosh you don't understand NOBODY will accept us as we are once they all realize-";
                 Char2name.text = "";
                 Char2speech.text = "";
+                Char3name.text = "";
+                Char3speech.text = "";
         }
        else if (primeInt == 201){
                 Char1name.text = "";
