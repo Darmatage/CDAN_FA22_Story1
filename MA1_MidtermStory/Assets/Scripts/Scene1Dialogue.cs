@@ -17,7 +17,7 @@ public class Scene1Dialogue : MonoBehaviour {
         public GameObject ArtChar1;   //Ohzi - player
         public GameObject ArtChar2;   //vendor
         public GameObject ArtChar3;   //pigeon
-        public GameObject ArtChar4;   //Ohzi-excited
+        public GameObject ArtChar4; 
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
