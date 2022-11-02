@@ -84,7 +84,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
-                Char3speech.text = "Ten 	Years 	 Later";
+                Char3speech.text = "Ten years later...";
         }
        else if (primeInt ==3){
                 Char1name.text = "???";
@@ -96,7 +96,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
        else if (primeInt == 4){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "I felt like I was back in college again for a second..";
+                Char1speech.text = "I felt like I was back in college again for a second.";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -105,7 +105,7 @@ public void talking(){         // main story function. Players hit next to progr
 		 else if (primeInt == 5){
 			 ArtChar1.SetActive(true);
                 Char1name.text = "Ohzi";
-                Char1speech.text = "I must be nervous.";
+                Char1speech.text = "It's probably just the nerves.";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -135,7 +135,7 @@ public void talking(){         // main story function. Players hit next to progr
         }
 		 else if (primeInt == 8){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "That was 10 years ago & you did’nt even like them at first!";
+                Char1speech.text = "That was 10 years ago, & you did’nt even like them at first!";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -147,7 +147,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "Moosh";
-                Char3speech.text = "Your point? They grew on me and everyone \n else will grow to love them too.";
+                Char3speech.text = "They grew on me and everyone \n else will grow to love them too.";
         }
        else if (primeInt == 10){
                 Char1name.text = "Ohzi";
@@ -163,7 +163,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "Moosh";
-                Char3speech.text = " And?– shh! Here they come!";
+                Char3speech.text = " And? Shh! Here they come!";
         }
         else if (primeInt == 12){
 				ArtChar2.SetActive(true);
@@ -204,11 +204,11 @@ public void talking(){         // main story function. Players hit next to progr
                  Char2name.text = "";
                  Char2speech.text = "";
 				 Char3name.text = "Moosh";
-                Char3speech.text = "What are they doing?";
+                Char3speech.text = "What are they doing??";
 		}
 		else if (primeInt ==17){
                  Char1name.text = "Ohzi";
-                 Char1speech.text = "Please DONT-";
+                 Char1speech.text = "Please DON'T-";
                  Char2name.text = "";
                  Char2speech.text = "";
 				 Char3name.text = "";
@@ -218,7 +218,7 @@ public void talking(){         // main story function. Players hit next to progr
                  Char1name.text = "";
                  Char1speech.text = "";
                  Char2name.text = "Pigeon";
-                 Char2speech.text = "*Squats and puffs up* Coo";
+                 Char2speech.text = "*Squats and puffs up* \n Coo.";
 				 Char3name.text = "";
                 Char3speech.text = "";
 		}
@@ -237,13 +237,13 @@ public void talking(){         // main story function. Players hit next to progr
                  Char1name.text = "";
                  Char1speech.text = "";
                  Char2name.text = "Pigeon";
-                 Char2speech.text = "*Casually poops in the middle of the isle only to \n spite you before waddling down the aisle once more*";
+                 Char2speech.text = "*Casually poops in the middle of the isle to \n spite you, before waddling down the aisle once more.*";
 				 Char3name.text = "";
                 Char3speech.text = "";
 		}
 		else if (primeInt == 21){
                  Char1name.text = "Ohzi";
-                 Char1speech.text = "*Sigh* (Can I do this?)";
+                 Char1speech.text = "*Sigh* \n (Can I do this?)";
                  Char2name.text = "";
                  Char2speech.text = "";
 				 Char3name.text = "";
@@ -264,7 +264,7 @@ public void talking(){         // main story function. Players hit next to progr
 		}
 		else if (primeInt == 23){
                  Char1name.text = "Ohzi";
-                 Char1speech.text = " Oh perfect timing! (At least no one else seemed to notice)";
+                 Char1speech.text = " Oh perfect timing! \n (At least no one else seemed to notice)";
                  Char2name.text = "";
                  Char2speech.text = "";
 				 Char3name.text = "";
@@ -282,7 +282,7 @@ public void talking(){         // main story function. Players hit next to progr
 				  Char3name.text = "";
                   Char3speech.text = "";
 				  Char4name.text = "RA";
-                  Char4speech.text = "Uheem…Will you Ohzi..\n Kh…mm-khoff khak khak! \n Oh LORD just give me a minute.";
+                  Char4speech.text = "Uhhhmmm… Will you, Ohzi...\n Kh…mm-khoff khak khak! \n Oh, LORD- just give me a minute-";
           }
           else if (primeInt == 25){
 			ArtChar4b.SetActive(false);
@@ -294,7 +294,7 @@ public void talking(){         // main story function. Players hit next to progr
                    Char3name.text = "";
                    Char3speech.text = "";
 				   Char4name.text = "RA";
-                   Char4speech.text = "AHEM! Sorry where were we? OH RIGHT!";
+                   Char4speech.text = "-AHEM! Sorry where were we? OH, RIGHT!";
            }
           else if (primeInt == 26){
                   Char1name.text = "";
@@ -314,7 +314,7 @@ public void talking(){         // main story function. Players hit next to progr
 					 Char3name.text = "";
 					 Char3speech.text = "";
                      Char4name.text = "RA";
-                     Char4speech.text = "Will you Ohzi take Pigeon to be your lawfully wedded..wife??";
+                     Char4speech.text = "Will you Ohzi take Pigeon to be your lawfully wedded...wife??";
 			}
             else if (primeInt == 28){
                      Char1name.text = "";
@@ -334,7 +334,7 @@ public void talking(){         // main story function. Players hit next to progr
 					 Char3name.text = "";
 					 Char3speech.text = "";
                      Char4name.text = "RA";
-                     Char4speech.text = "Sorry..sorry it was just a prank..";
+                     Char4speech.text = "Sorry, sorry it was just a prank.";
 			}
             else if (primeInt == 30){
                      Char1name.text = "";
@@ -378,7 +378,7 @@ public void talking(){         // main story function. Players hit next to progr
 
 		else if (primeInt == 100){
 			Char1name.text = "Ohzi";
-			Char1speech.text = "Oh but it's not me I'm worried about here anymore.";
+			Char1speech.text = "Oh, but it's not me I'm worried about here.";
 			Char2name.text = "";
 			Char2speech.text = "";
 			Char3name.text = "";
@@ -412,13 +412,13 @@ public void talking(){         // main story function. Players hit next to progr
 			Char2name.text = "";
 			Char2speech.text = "";
 			Char3name.text = "Moosh";
-			Char3speech.text = "What do you mean you've already been taking care of them for the past ten years?";
+			Char3speech.text = "What do you mean? You've already been taking care of them for the past ten years!";
 			Char4name.text = "";
 			Char4speech.text = "";
 		}
 		else if (primeInt == 104){
 			Char1name.text = "Ohzi";
-			Char1speech.text = "No not them, I love Pigeon, I'm not worried about Pigeon.";
+			Char1speech.text = "No, not them, I love Pigeon. I'm not worried about Pigeon.";
 			Char2name.text = "";
 			Char2speech.text = "";
 			Char3name.text = "";
@@ -432,13 +432,13 @@ public void talking(){         // main story function. Players hit next to progr
 			Char2name.text = "";
 			Char2speech.text = "";
 			Char3name.text = "Moosh";
-			Char3speech.text = "Then who in the world is them???";
+			Char3speech.text = "Then who in the world is 'them'???";
 			Char4name.text = "";
 			Char4speech.text = "";
 		}
 		else if (primeInt == 106){
 			Char1name.text = "Ohzi";
-			Char1speech.text = "*Sigh* My PARENTS Moosh!";
+			Char1speech.text = "*Sigh* \n My PARENTS Moosh!";
 			Char2name.text = "";
 			Char2speech.text = "";
 			Char3name.text = "";
@@ -458,7 +458,7 @@ public void talking(){         // main story function. Players hit next to progr
 		}
 		else if (primeInt == 108){
 			Char1name.text = "Ohzi";
-			Char1speech.text = "I'm worried they won't understand and I know Pigeon is excited to finally meet them and...and..";
+			Char1speech.text = "I'm worried they won't understand, and I know Pigeon is excited to finally meet them and...and..";
 			Char2name.text = "";
 			Char2speech.text = "";
 			Char3name.text = "";
@@ -472,13 +472,13 @@ public void talking(){         // main story function. Players hit next to progr
 			Char2name.text = "";
 			Char2speech.text = "";
 			Char3name.text = "Moosh";
-			Char3speech.text = "Ohzi Pigeon will be fine you’re overreacting";
+			Char3speech.text = "Ohzi, Pigeon will be fine, you’re overreacting";
 			Char4name.text = "";
 			Char4speech.text = "";
 		}
 		else if (primeInt == 110){
 			Char1name.text = "Ohzi";
-			Char1speech.text = "But But-";
+			Char1speech.text = "But, But-";
 			Char2name.text = "";
 			Char2speech.text = "";
 			Char3name.text = "";
@@ -492,7 +492,7 @@ public void talking(){         // main story function. Players hit next to progr
 // ENCOUNTER AFTER CHOICE #2
        else if (primeInt == 200){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "But Moosh you don't understand NOBODY will accept us as we are once they all realize-";
+                Char1speech.text = "But Moosh, you don't understand. NOBODY will accept us once they all realize-";
                 Char2name.text = "";
                 Char2speech.text = "";
                 Char3name.text = "";
@@ -504,11 +504,11 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "Moosh";
-				Char3speech.text = "Oh come on Ohzi we have been friends for 10 almost 11 years now, you KNOW there's nothing I wouldn’t accept, \n if you have anything you need to tell me-";
+				Char3speech.text = "Oh come on Ohzi! We have been friends for 10, almost 11 years now, \n you KNOW there's nothing I wouldn’t accept. \n If you have anything you need to tell me-";
         }
 		 else if (primeInt == 202){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "OH NO NO NO you’re misunderstanding it’s not like THAT! It's…It's Different.";
+                Char1speech.text = "OH NO NO NO, you’re misunderstanding, it’s not like THAT! It's… It's different.";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -520,7 +520,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "Moosh";
-				Char3speech.text = "... Different how? I dont think there's anything else you could tell me at this point that I’d judge you for.";
+				Char3speech.text = "... Different how? I don't think there's anything else you could tell me at this point that I’d judge you for.";
         }
 		 else if (primeInt == 204){
                 Char1name.text = "Ohzi";
@@ -536,11 +536,11 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "Moosh";
-				Char3speech.text = "A what? Landlord? Cop? Lawyer? ...Beaty Guru?";
+				Char3speech.text = "A what? Landlord? Cop? Lawyer? ...Beauty Guru?";
         }
 		 else if (primeInt == 206){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "No?...Theyre a..bird.";
+                Char1speech.text = "No?...They're a...bird.";
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "";
@@ -552,7 +552,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char2name.text = "";
                 Char2speech.text = "";
 				Char3name.text = "Moosh";
-				Char3speech.text = "Oh come on they may be a bit of a bird brain-";
+				Char3speech.text = "Oh come on, they may be a bit of a bird brain-";
 				primeInt = 6;
         }
 	}

@@ -1306,8 +1306,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: As the words leave your mouth, the entire factory hums to life. The plushies
-    raise their heads menacingly, and in the wake of their mechanical march lie only
-    bones.
+    raise their heads menacingly, and nothing lies in the wake of their mechanical
+    march.
 --- !u!222 &1824814101
 CanvasRenderer:
   m_ObjectHideFlags: 0
