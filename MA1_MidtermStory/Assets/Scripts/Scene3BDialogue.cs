@@ -171,7 +171,8 @@ public void talking(){         // main story function. Players hit next to progr
          else if (primeInt == 20){
            ArtChar3e.SetActive(false);
            ArtChar3d.SetActive(false);
-           ArtChar3a.SetActive(true);
+            ArtChar3a.SetActive(false);
+           ArtChar3e.SetActive(true);
                   Char1name.text = "";
                   Char1speech.text = "";
                   Char2name.text = "";
@@ -180,6 +181,8 @@ public void talking(){         // main story function. Players hit next to progr
                   Char3speech.text = " What is it then?";
           }
           else if (primeInt == 21){
+            ArtChar3e.SetActive(false);
+            ArtChar3a.SetActive(true);
                    Char1name.text = "";
                    Char1speech.text = "";
                    Char2name.text = "Pigeon";
@@ -204,7 +207,7 @@ public void talking(){         // main story function. Players hit next to progr
               ArtChar2a.SetActive(false);
              ArtChar2d.SetActive(true);
              ArtChar3a.SetActive(false);
-             ArtChar3a.SetActive(true);
+             ArtChar3d.SetActive(true);
                      Char1name.text = "";
                      Char1speech.text = "";
                      Char2name.text = "";
@@ -253,11 +256,11 @@ public void talking(){         // main story function. Players hit next to progr
 // ENCOUNTER AFTER CHOICE #2
        else if (primeInt == 200){
          ArtChar1b.SetActive(false);
-        ArtChar1d.SetActive(true);
+        ArtChar1c.SetActive(true);
         ArtChar2b.SetActive(false);
         ArtChar2e.SetActive(true);
         ArtChar3b.SetActive(false);
-        ArtChar3a.SetActive(true);
+        ArtChar3e.SetActive(true);
                 Char1name.text = "Ohzi";
                 Char1speech.text = "But it’s not *myyyyy* pet! Not my fault!";
                 Char2name.text = "";
@@ -266,11 +269,12 @@ public void talking(){         // main story function. Players hit next to progr
                 Char3speech.text = "";
         }
         else if (primeInt == 201){
-          ArtChar1d.SetActive(false);
+          ArtChar1c.SetActive(false);
          ArtChar1a.SetActive(true);
          ArtChar2e.SetActive(false);
          ArtChar2a.SetActive(true);
-      
+         ArtChar3e.SetActive(false);
+         ArtChar3a.SetActive(true);
                  Char1name.text = "";
                  Char1speech.text = "";
                  Char2name.text = "";
@@ -283,7 +287,7 @@ public void talking(){         // main story function. Players hit next to progr
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
-
+          
                 Char1name.text = "Ohzi";
                 Char1speech.text = "It’s not a pet!";
                 Char2name.text = "";
