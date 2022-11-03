@@ -237,7 +237,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1name.text = "";
                 Char1speech.text = "";
                 Char2name.text = "Vendor";
-                Char2speech.text = "Shove off. It's a nice day. Go take a hike aroudn the block.";
+                Char2speech.text = "Shove off. It's a nice day. Go take a hike around the block.";
                 primeInt = 19;
         }
 
