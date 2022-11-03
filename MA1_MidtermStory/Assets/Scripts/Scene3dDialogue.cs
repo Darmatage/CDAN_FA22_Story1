@@ -15,11 +15,11 @@ public class Scene3dDialogue : MonoBehaviour {
         public Text Char3speech;
         public GameObject DialogueDisplay;
         public GameObject ArtChar1;   //Ohzi - player
-		public GameObject ArtChar1b;
+	    	public GameObject ArtChar1b;
         public GameObject ArtChar2;   //pigeon
-		public GameObject ArtChar2b;
+	    	public GameObject ArtChar2b;
         public GameObject ArtChar3;   //professor
-		public GameObject ArtChar3b;
+    		public GameObject ArtChar3b;
         public GameObject ArtBG1;
         public GameObject Choice1a;
         public GameObject Choice1b;
@@ -36,12 +36,11 @@ void Start(){         // initial visibility settings
         ArtChar1.SetActive(false);
         ArtChar1b.SetActive(false);
         ArtChar2.SetActive(false);
-		ArtChar2b.SetActive(false);
+	    	ArtChar2b.SetActive(false);
         ArtChar3.SetActive(false);
         ArtChar3b.SetActive(false);
         ArtBG1.SetActive(true);
-
-		ArtBG1.SetActive(true);
+    		ArtBG1.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
         NextScene1Button.SetActive(false);
@@ -246,8 +245,8 @@ public void talking(){         // main story function. Players hit next to progr
                  Char1speech.text = "I can’t believe you helped me on that test!";
                  Char2name.text = "";
                  Char2speech.text = "";
-				 Char3name.text = "";
-                Char3speech.text = "";
+				         Char3name.text = "";
+                 Char3speech.text = "";
                  // Turn off "Next" button, turn on "Choice" buttons
                  nextButton.SetActive(false);
                  allowSpace = false;
@@ -353,7 +352,7 @@ public void talking(){         // main story function. Players hit next to progr
 // ENCOUNTER AFTER CHOICE #2
        else if (primeInt == 200){
                 Char1name.text = "Ohzi";
-                Char1speech.text = "I really appreciate the help, even if it was cheating haha.";
+                Char1speech.text = "even if it was cheating haha.";
                 Char2name.text = "";
                 Char2speech.text = "";
         }
@@ -389,10 +388,10 @@ public void talking(){         // main story function. Players hit next to progr
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
-                //Char1name.text = "Ohzi";
-                //Char1speech.text = "You should have let me fail, I didn’t want to cheat.";
-               // Char2name.text = "";
-                //Char2speech.text = "";
+                Char1name.text = "Ohzi";
+                Char1speech.text = "You should have let me fail, I didn’t want to cheat.";
+                Char2name.text = "";
+                Char2speech.text = "";
                 primeInt = 99;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -400,10 +399,10 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice1bFunct(){
-               // Char1name.text = "Ohzi";
-               // Char1speech.text = "I really appreciate it, \n even if it was cheating.";
-               // Char2name.text = "";
-                //Char2speech.text = "";
+                Char1name.text = "Ohzi";
+                Char1speech.text = "I really appreciate it";
+                Char2name.text = "";
+                Char2speech.text = "";
                 primeInt = 199;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);

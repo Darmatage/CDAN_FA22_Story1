@@ -15,19 +15,19 @@ public class Scene4cDialogue : MonoBehaviour {
         public Text Char3speech;
         public GameObject DialogueDisplay;
         public GameObject ArtChar1;   //Ohzi - player
-		public GameObject ArtChar1b;
-		public GameObject ArtChar1c;
+	    	public GameObject ArtChar1b;
+	    	public GameObject ArtChar1c;
         public GameObject ArtChar2;   //pigeon
-		public GameObject ArtChar2b;
-		public GameObject ArtChar2c; //Liar Scene
+	    	public GameObject ArtChar2b;
+    		public GameObject ArtChar2c; //Liar Scene
         public GameObject ArtChar3;   //Mad Scientist
-		public GameObject ArtChar3b;	//excited
-		public GameObject ArtChar3c;
+    		public GameObject ArtChar3b;	//excited
+	    	public GameObject ArtChar3c;
         public GameObject ArtBG1;
-		public GameObject ArtBG2;   //splash_academy
+	     	public GameObject ArtBG2;   //splash_academy
         public GameObject Choice1a;
         public GameObject Choice1b;
-		public GameObject Choice2a;
+	    	public GameObject Choice2a;
         public GameObject Choice2b;
         public GameObject NextScene1Button;
         public GameObject NextScene2Button;
@@ -40,19 +40,18 @@ void Start(){         // initial visibility settings
         DialogueDisplay.SetActive(false);
         ArtChar1.SetActive(false);
         ArtChar1b.SetActive(false);
-		ArtChar1c.SetActive(false);
+	     	ArtChar1c.SetActive(false);
         ArtChar2.SetActive(false);
-		ArtChar2b.SetActive(false);
-		ArtChar2c.SetActive(false);
+    		ArtChar2b.SetActive(false);
+	    	ArtChar2c.SetActive(false);
         ArtChar3.SetActive(false);
         ArtChar3b.SetActive(false);
-		ArtChar3c.SetActive(false);
+    		ArtChar3c.SetActive(false);
         ArtBG1.SetActive(false);
-
-		ArtBG2.SetActive(true);
+	    	ArtBG2.SetActive(true);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
-		Choice2a.SetActive(false);
+	    	Choice2a.SetActive(false);
         Choice2b.SetActive(false);
         NextScene1Button.SetActive(false);
         NextScene2Button.SetActive(false);
@@ -254,7 +253,7 @@ public void talking(){         // main story function. Players hit next to progr
                  Char1speech.text = "Not even YOU know for certain what they’re saying, do you?";
                  Char2name.text = "";
                  Char2speech.text = "";
-				 Char3name.text = "";
+				         Char3name.text = "";
                 Char3speech.text = "";
 				// Turn off "Next" button, turn on "Choice" buttons
                  nextButton.SetActive(false);
@@ -662,7 +661,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "...How did he get in this time?";
                 Char2name.text = "";
                 Char2speech.text = "";
-				Char3name.text = "";
+			        	Char3name.text = "";
                 Char3speech.text = "";
         }
 		       else if (primeInt == 402){
@@ -717,10 +716,10 @@ public void talking(){         // main story function. Players hit next to progr
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
         public void Choice1aFunct(){
-                //Char1name.text = "Ohzi";
-                //Char1speech.text = "No";
-                //Char2name.text = "";
-                //Char2speech.text = "";
+                Char1name.text = "Ohzi";
+                Char1speech.text = "No";
+                Char2name.text = "";
+                Char2speech.text = "";
                 primeInt = 99;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -728,10 +727,10 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
         public void Choice1bFunct(){
-                //Char1name.text = "Ohzi";
-                //Char1speech.text = "Yes.";
-                //Char2name.text = "";
-                //Char2speech.text = "";
+                Char1name.text = "Ohzi";
+                Char1speech.text = "Yes.";
+                Char2name.text = "";
+                Char2speech.text = "";
                 primeInt = 199;
                 Choice1a.SetActive(false);
                 Choice1b.SetActive(false);
@@ -739,24 +738,28 @@ public void talking(){         // main story function. Players hit next to progr
                 allowSpace = true;
         }
 		  public void Choice2aFunct(){
-                //Char1name.text = "Ohzi";
-                //Char1speech.text = " …You’re the one who sent him the holiday card.";
-                //Char2name.text = "";
-                //Char2speech.text = "";
+                Char1name.text = "Ohzi";
+                Char1speech.text = " …You’re the one who sent him the holiday card.";
+                Char2name.text = "";
+                Char2speech.text = "";
+                Char3name.text = "";
+                Char3speech.text = "";
                 primeInt = 299;
-                Choice1a.SetActive(false);
-                Choice1b.SetActive(false);
+                Choice2a.SetActive(false);
+                Choice2b.SetActive(false);
                 nextButton.SetActive(true);
                 allowSpace = true;
         }
         public void Choice2bFunct(){
-                //Char1name.text = "Ohzi";
-                //Char1speech.text = "…How did he get in this time?";
-                //Char2name.text = "";
-                //Char2speech.text = "";
+                Char1name.text = "Ohzi";
+                Char1speech.text = "…How did he get in this time?";
+                Char2name.text = "";
+                Char2speech.text = "";
+                Char3name.text = "";
+                Char3speech.text = "";
                 primeInt = 399;
-                Choice1a.SetActive(false);
-                Choice1b.SetActive(false);
+                Choice2a.SetActive(false);
+                Choice2b.SetActive(false);
                 nextButton.SetActive(true);
                 allowSpace = true;
         }
