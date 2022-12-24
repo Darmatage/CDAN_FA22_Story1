@@ -17,6 +17,23 @@ public class GameHandler : MonoBehaviour {
 
 	public static bool NiceToPigeon = false;
 
+
+	//the endings
+	public static bool gotEnd_lose1a = false;
+	public static bool gotEnd_lose2a = false;
+	public static bool gotEnd_lose2b = false;
+	public static bool gotEnd_lose3a = false;
+	public static bool gotEnd_lose3b = false;
+	public static bool gotEnd_lose3c = false;
+	public static bool gotEnd_lose3d = false;
+	public static bool gotEnd_lose4a = false;
+	public static bool gotEnd_lose4b = false;
+	public static bool gotEnd_lose4c = false;
+	public static bool gotEnd_win4a = false;
+	public static bool gotEnd_win4b = false;
+	public static bool gotEnd_win4c = false;
+
+
 	void Awake (){
 		SetLevel (volumeLevel);
 		GameObject sliderTemp = GameObject.FindWithTag("PauseMenuSlider");
@@ -24,6 +41,22 @@ public class GameHandler : MonoBehaviour {
 			sliderVolumeCtrl = sliderTemp.GetComponent<Slider>();
 			sliderVolumeCtrl.value = volumeLevel;
 		}
+		
+		//endings tracking
+		string sceneName = SceneManager.GetActiveScene().name;
+		if (sceneName == "End_Lose1a") {gotEnd_lose1a = true;}
+		else if (sceneName == "End_Lose2a") {gotEnd_lose2a = true;}
+		else if (sceneName == "End_Lose2b") {gotEnd_lose2b = true;}
+		else if (sceneName == "End_Lose3a") {gotEnd_lose3a = true;}
+		else if (sceneName == "End_Lose3b") {gotEnd_lose3b = true;}
+		else if (sceneName == "End_Lose3c") {gotEnd_lose3c = true;}
+		else if (sceneName == "End_Lose3d") {gotEnd_lose3d = true;}
+		else if (sceneName == "End_Lose4a") {gotEnd_lose4a = true;}
+		else if (sceneName == "End_Lose4b") {gotEnd_lose4b = true;}
+		else if (sceneName == "End_Lose4c") {gotEnd_lose4c = true;}
+		else if (sceneName == "End_Win4a") {gotEnd_win4a = true;}
+		else if (sceneName == "End_Win4b") {gotEnd_win4b = true;}
+		else if (sceneName == "End_Win4c") {gotEnd_win4c = true;}
 	}
 
 	void Start (){
