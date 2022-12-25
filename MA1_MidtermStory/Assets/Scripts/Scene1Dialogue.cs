@@ -120,23 +120,31 @@ public void talking(){         // main story function. Players hit next to progr
                  Choice1b.SetActive(true); // function Choice1bFunct()
          }
 //ADD IN BG CHANGE HERE
-         else if (primeInt == 20){
-           ArtChar2.SetActive(false);
-           ArtBG1.SetActive(false);
-                  Char1name.text = "Ohzi";
-                  Char1speech.text = "Wow, the weather is really nice today!";
-                  Char2name.text = "";
-                  Char2speech.text = "";
-          }
-          else if (primeInt == 21){
+		else if (primeInt == 19){
+			DialogueDisplay.SetActive(false);
+			ArtChar2.SetActive(false);
+			ArtBG1.SetActive(false);
+			Char1name.text = "";
+			Char1speech.text = "";
+			Char2name.text = "";
+			Char2speech.text = "";
+		}
+		else if (primeInt == 20){
+			DialogueDisplay.SetActive(true);
+			Char1name.text = "Ohzi";
+			Char1speech.text = "Wow, the weather is really nice today!";
+			Char2name.text = "";
+			Char2speech.text = "";
+		}
+		else if (primeInt == 21){
                    Char1name.text = "Ohzi";
                    Char1speech.text = "All of the leaves are turning different colors, and the birds are out…";
                    Char2name.text = "";
                    Char2speech.text = "";
                    Char3name.text = "";
                    Char3speech.text = "";
-           }
-          else if (primeInt == 22){
+		}
+		else if (primeInt == 22){
             ArtChar3.SetActive(true);
                   Char1name.text = "";
                   Char1speech.text = "";
@@ -144,9 +152,9 @@ public void talking(){         // main story function. Players hit next to progr
                   Char2speech.text = "";
                   Char3name.text = "Pigeon";
                   Char3speech.text = "Coo.";
-            }
+		}
 
-            else if (primeInt == 23){
+		else if (primeInt == 23){
                      Char1name.text = "Ohzi";
                      Char1speech.text = "... That’s a pigeon.";
                      Char2name.text = "";
@@ -186,45 +194,45 @@ public void talking(){         // main story function. Players hit next to progr
                          Char2speech.text = "";
                          Char3name.text = "";
                          Char3speech.text = "";
-                 }
-                else if (primeInt == 28){
+			}
+			else if (primeInt == 28){
                         Char1name.text = "";
                         Char1speech.text = "";
                         Char2name.text = "";
                         Char2speech.text = "";
                         Char3name.text = "Pigeon";
                         Char3speech.text = "*Blinks.*";
-                  }
-                  else if (primeInt == 29){
-                    ArtChar1.SetActive(false);
-         ArtChar4.SetActive(true);
-                           Char1name.text = "Ohzi";
-                           Char1speech.text = "Do you want to come with me?";
-                           Char2name.text = "";
-                           Char2speech.text = "";
-                           Char3name.text = "";
-                           Char3speech.text = "";
-                   }
-                  else if (primeInt == 30){
-                          Char1name.text = "";
-                          Char1speech.text = "";
-                          Char2name.text = "";
-                          Char2speech.text = "";
-                          Char3name.text = "Pigeon";
-                          Char3speech.text = "Coo.";
-                    }
-                    else if (primeInt == 31){
-                             Char1name.text = "";
-                             Char1speech.text = "";
-                             Char2name.text = "";
-                             Char2speech.text = "";
-                             // Turn off "Next" button, turn on "Choice" buttons
-                             nextButton.SetActive(false);
-                             allowSpace = false;
-                             NextScene1Button.SetActive(true);
-                             NextScene2Button.SetActive(true);
-                             NextScene3Button.SetActive(true);
-                    }
+			}
+			else if (primeInt == 29){
+				ArtChar1.SetActive(false);
+				ArtChar4.SetActive(true);
+				Char1name.text = "Ohzi";
+				Char1speech.text = "Do you want to come with me?";
+				Char2name.text = "";
+				Char2speech.text = "";
+				Char3name.text = "";
+				Char3speech.text = "";
+			}
+			else if (primeInt == 30){
+				Char1name.text = "";
+				Char1speech.text = "";
+				Char2name.text = "";
+				Char2speech.text = "";
+				Char3name.text = "Pigeon";
+				Char3speech.text = "Coo.";
+			}
+			else if (primeInt == 31){
+				Char1name.text = "";
+				Char1speech.text = "";
+				Char2name.text = "";
+				Char2speech.text = "";
+				// Turn off "Next" button, turn on "Choice" buttons
+				nextButton.SetActive(false);
+				allowSpace = false;
+				NextScene1Button.SetActive(true);
+				NextScene2Button.SetActive(true);
+				NextScene3Button.SetActive(true);
+			}
 
 // ENCOUNTER AFTER CHOICE #1
        else if (primeInt == 100){
@@ -238,7 +246,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "Vendor";
                 Char2speech.text = "Shove off. It's a nice day. Go take a hike around the block.";
-                primeInt = 19;
+                primeInt = 18;
         }
 
 // ENCOUNTER AFTER CHOICE #2
@@ -253,7 +261,7 @@ public void talking(){         // main story function. Players hit next to progr
                 Char1speech.text = "";
                 Char2name.text = "Vendor";
                 Char2speech.text = "It’s the first nice day in weeks, go take a hike around the block.";
-                primeInt = 19;
+                primeInt = 18;
         }
      }
 
